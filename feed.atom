@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-13T00:48:34.746Z</id>
+    <id>urn:2021-05-13T00:51:33.233Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-13T00:48:34.746Z</updated>
+    <updated>2021-05-13T00:51:33.233Z</updated>
     <generator>osmosfeed 1.6.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -20,6 +20,60 @@ Débora stumbled upon her love for programming accidentally…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[#233 RaaS: Readme as a Service]]></title>
+        <id>5c2d2682-45f6-4adc-be2d-afe3ba5d48d5</id>
+        <link href="https://pythonbytes.fm/episodes/show/233/raas-readme-as-a-service"/>
+        <updated>2021-05-12T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Watch the live stream:
+Watch on YouTube
+About the show
+Sponsored by us! Support our work through:
+Our courses at Talk Python Training
+pytest book
+Patreon Supporters
+Special guest: Marlene Mhangami
+Brian #1: readme.so
+Recommended by Johnny Metz
+This is not only useful, it’s fun
+Interactively create a README.md file
+Suggested sections great 
+There are lots of sections though, so really only pick the ones you are willing to fill in.
+I think this is nicer than the old stand by of “copying the README.md of anoth…]]></summary>
+        <author>
+            <name>Python Bytes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[25 years of speech technology innovation (Practical AI #133)]]></title>
+        <id>changelog.com/7/1354</id>
+        <link href="https://changelog.com/practicalai/133"/>
+        <updated>2021-05-11T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To say that Jeff Adams is a trailblazer when it comes to speech technology is an understatement. Along with many other notable accomplishments, his team at Amazon developed the Echo, Dash, and Fire TV changing our perception of how we could interact with devices in our home. Jeff now leads Cobalt Speech and Language, and he was kind enough to join us for a discussion about human computer interaction, multimodal AI tasks, the history of language modeling, and AI for social good.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elixir meets machine learning (The Changelog #439)]]></title>
+        <id>changelog.com/1/1337</id>
+        <link href="https://changelog.com/podcast/439"/>
+        <updated>2021-05-07T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week Elixir creator José Valim joins Jerod and Practical AI’s Daniel Whitenack to discuss Numerical Elixir, his new project that’s bringing Elixir into the world of machine learning. We discuss why José chose this as his next direction, the team’s layered approach, influences and collaborators on this effort, and their awesome collaborative notebook project that’s built on Phoenix LiveView.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[For a more dope web! (JS Party #174)]]></title>
+        <id>changelog.com/6/1340</id>
+        <link href="https://changelog.com/jsparty/174"/>
+        <updated>2021-05-07T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Paul Bakaus from Google Web Creators joins Amal, Nick, & Jerod to talk about this new initiative to promote, educate, and equip people to create on the web. Along the way we discuss Web Stories, AMP, RSS, Google Reader, and more, of course. Join us: for a more dope web!]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Ember Times - Issue No. 179]]></title>
         <id>https://blog.emberjs.com/the-ember-times-issue-179</id>
         <link href="https://blog.emberjs.com/the-ember-times-issue-179"/>
@@ -30,6 +84,16 @@ May 20th is Global Accessibility Awareness Day 💟
 Global Accessibility Awareness Day, an awareness day focusing on digital access and inclusion for the more than one billion people with disabilities and impairments, will be celebrated on May 20, 2021. Here are some suggestions from Melanie Sumner (@MelSumner) on how you c…]]></summary>
         <author>
             <name>Ember.js Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What makes wonderful workshops?  (Go Time #178)]]></title>
+        <id>changelog.com/2/1210</id>
+        <link href="https://changelog.com/gotime/178"/>
+        <updated>2021-05-06T15:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Perspectives from both the workshop leaders perspective, as well as the workshop participants. What are some top tips, things to watch out for, and ways to innovate and keep your participants engaged, especially in the remote world we are now living in.]]></summary>
+        <author>
+            <name>Changelog Media</name>
         </author>
     </entry>
     <entry>
@@ -51,6 +115,30 @@ newlines and tabs. If you used values with newlines in HTTP response, you co…]
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[#232 PyPI in a box and a revolutionary keyboard]]></title>
+        <id>24fde3a2-6ace-4ffb-a93b-c774d6e1a6e8</id>
+        <link href="https://pythonbytes.fm/episodes/show/232/pypi-in-a-box-and-a-revolutionary-keyboard"/>
+        <updated>2021-05-05T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Watch the live stream:
+Watch on YouTube
+About the show
+Sponsored by us! Support our work through:
+Our courses at Talk Python Training
+pytest book
+Patreon Supporters
+Special guest: Annette Lewis
+Brian #1: Sphinx Themes Gallery update
+Curated and maintained by @pradyunsg and @shirou.
+I actually don’t know what it looked like before, but this is great.
+I’m working on my first real Sphinx project, so this is awesome to have.
+Features: 
+
+Main image for each theme shows what theme looks like in wide, narrow, and …]]></summary>
+        <author>
+            <name>Python Bytes</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[PyCharm &amp; DSF Campaign 2021 Results]]></title>
         <id>https://www.djangoproject.com/weblog/2021/may/04/pycharm-dsf-campaign-2021-results/</id>
         <link href="https://www.djangoproject.com/weblog/2021/may/04/pycharm-dsf-campaign-2021-results/"/>
@@ -61,6 +149,16 @@ Django Software Foundation
 The Django Software Foundation is the non-profit foundation that supports the development of the Django Web …]]></summary>
         <author>
             <name>William Vincent</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Generating "hunches" using smart home data 🏠 (Practical AI #132)]]></title>
+        <id>changelog.com/7/1349</id>
+        <link href="https://changelog.com/practicalai/132"/>
+        <updated>2021-05-04T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Smart home data is complicated. There are all kinds of devices, and they are in many different combinations, geographies, configurations, etc. This complicated data situation is further exacerbated during a pandemic when time series data seems to be filled with anomalies. Evan Welbourne joins us to discuss how Amazon is synthesizing this disparate data into functionality for the next generation of smart homes. He discusses the challenges of working with smart home technology, and he describes how they devel…]]></summary>
+        <author>
+            <name>Changelog Media</name>
         </author>
     </entry>
     <entry>
@@ -80,6 +178,16 @@ directory-traversal via uploaded files with suitably crafted file names.
 In order to mitigate this risk, stricter basename and path sanitation is no…]]></summary>
         <author>
             <name>Carlton Gibson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blasting off with Apollo 🚀 (JS Party #173)]]></title>
+        <id>changelog.com/6/1327</id>
+        <link href="https://changelog.com/jsparty/173"/>
+        <updated>2021-04-30T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[KBall, Amal, and Feross are joined by special guest Jenn Creighton to talk about all things Apollo. How does Apollo fit into the GraphQL ecosystem, what’s the next big thing, and when would you choose to use it?]]></summary>
+        <author>
+            <name>Changelog Media</name>
         </author>
     </entry>
     <entry>
@@ -108,6 +216,59 @@ Nicolas McKibben to implement MRI reconstructi…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Building startups with Go (Go Time #177)]]></title>
+        <id>changelog.com/2/1214</id>
+        <link href="https://changelog.com/gotime/177"/>
+        <updated>2021-04-29T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Startups are all about iterating quickly, building MVPs, and finding that elusive product market fit, so how does Go fit into that picture? Is Go a good choice for startups, or is it exclusively for the larger corporations? In this episode Jon is joined by four startup founders to learn about their experience building a startup with Go.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#231 Go Python, Go!]]></title>
+        <id>78903a53-c4bf-4db6-8845-6ae80bbf81d2</id>
+        <link href="https://pythonbytes.fm/episodes/show/231/go-python-go"/>
+        <updated>2021-04-28T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Watch the live stream:
+Watch on YouTube
+About the show
+Sponsored by us! Support our work through:
+Our courses at Talk Python Training
+pytest book
+Patreon Supporters
+Special guests: 
+Cecil Phillip
+Brian #1: For-Else: A Weird but Useful Feature in Python
+Yang Zhou
+After a for loop, you can put an else block.
+The else block only executes when there is no break in the loop. If the loop got all the way to the end, and off the end, the else  block will run.
+First, I’m not used to putting break or else anywhere in…]]></summary>
+        <author>
+            <name>Python Bytes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mapping the world (Practical AI #131)]]></title>
+        <id>changelog.com/7/1347</id>
+        <link href="https://changelog.com/practicalai/131"/>
+        <updated>2021-04-27T19:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Ro Gupta from CARMERA teaches Daniel and Chris all about road intelligence.  CARMERA maintains the maps that move the world, from HD maps for automated driving to consumer maps for human navigation.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let's mint some NFTs (The Changelog #438)]]></title>
+        <id>changelog.com/1/1333</id>
+        <link href="https://changelog.com/podcast/438"/>
+        <updated>2021-04-27T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re talking about NFTs — that’s right, non-fungible tokens and we’re joined by Mikeal Rogers, who’s leading all things InterPlanetary Linked Data at Protocol Labs. We go down the NFT rabbit hole on a very technical level and we come out the other side with clarity and a compelling use of NFTs.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Python Software Foundation Fellow Members for Q1 2021]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/-01rNDGeJjI/python-software-foundation-fellow.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/-01rNDGeJjI/python-software-foundation-fellow.html"/>
@@ -131,6 +292,16 @@ Thank you for your continued contributions. We have added you to our Fellow rost
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Sweet setups for easier dev (JS Party #172)]]></title>
+        <id>changelog.com/6/1330</id>
+        <link href="https://changelog.com/jsparty/172"/>
+        <updated>2021-04-23T15:20:00.000Z</updated>
+        <summary type="html"><![CDATA[The gang talks about thier favorite software and hardware as developers. Brian Douglas joins to share his unique and open GitHub Actions flow.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Ember Times - Issue No. 178]]></title>
         <id>https://blog.emberjs.com/the-ember-times-issue-178</id>
         <link href="https://blog.emberjs.com/the-ember-times-issue-178"/>
@@ -145,6 +316,16 @@ We encourage you to make time to address deprecated patterns in your apps and ad
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[TCP & UDP (Go Time #176)]]></title>
+        <id>changelog.com/2/1288</id>
+        <link href="https://changelog.com/gotime/176"/>
+        <updated>2021-04-22T16:15:00.000Z</updated>
+        <summary type="html"><![CDATA[The internet wouldn’t exist as we know it if it weren’t for TCP and UDP, yet many developers don’t quite understand the technology powering the web. In this episode we talk with Adam Woodbeck, author of Network Programming with Go, to learn about TCP and UDP; what they are, how they work, and how one can experiment with tools like Wireshark and Go to learn more.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Technical Board Candidate Registration]]></title>
         <id>https://www.djangoproject.com/weblog/2021/apr/21/technical-board-candidate-registration/</id>
         <link href="https://www.djangoproject.com/weblog/2021/apr/21/technical-board-candidate-registration/"/>
@@ -155,6 +336,111 @@ We encourage you to make time to address deprecated patterns in your apps and ad
 According to DEP-10, "Any qualified person may register as a candidate; the candidate registration form and roster of candidates SHALL be maintained by the DSF Board, and candidates MUST provide evidence of their qualifications as part of registration. The DSF Board MAY challenge and reject the registration of candidates it believes do not meet the …]]></summary>
         <author>
             <name>Chaim Kirby</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#230 PyMars? Yes! FLoC? No!]]></title>
+        <id>b60ed375-e9d8-4aaa-ba71-963a30c15a8c</id>
+        <link href="https://pythonbytes.fm/episodes/show/230/pymars-yes-floc-no"/>
+        <updated>2021-04-21T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Watch the live stream:
+Watch on YouTube
+About the show
+Sponsored by us! Support our work through:
+Our courses at Talk Python Training
+pytest book
+Patreon Supporters
+Special guests: 
+Peter Kazarinoff
+Brian #1: calmcode.io
+by Vincent D. Warmerdam
+Suggested by Rens Dimmendaal
+Great short intro tutorials &amp; videos. Not deep dives, but not too shallow either.
+Suggestions:
+
+pytest
+rich
+datasette
+
+I watched the whole series on datasette this morning and learned how to
+
+turn a csv data file into a sqlite databas…]]></summary>
+        <author>
+            <name>Python Bytes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data science for intuitive user experiences (Practical AI #130)]]></title>
+        <id>changelog.com/7/1343</id>
+        <link href="https://changelog.com/practicalai/130"/>
+        <updated>2021-04-20T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Nhung Ho joins Daniel and Chris to discuss how data science creates insights into financial operations and economic conditions.  They delve into topics ranging from predictive forecasting to aid small businesses, to learning about the economic fallout from the COVID-19 Pandemic.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Into the Nix ecosystem (The Changelog #437)]]></title>
+        <id>changelog.com/1/1323</id>
+        <link href="https://changelog.com/podcast/437"/>
+        <updated>2021-04-20T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re talking about Nix with Domen Kožar. The Nix ecosystem is a DevOps toolkit that takes a unique approach to package management and system configuration. Nix helps you make reproducible, declarative, and reliable systems. Domen is writing the Nix ecosystem guide at nix.dev and today he takes us on a deep dive on all things Nix.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let us know in the comments (Backstage #16)]]></title>
+        <id>changelog.com/12/1339</id>
+        <link href="https://changelog.com/backstage/16"/>
+        <updated>2021-04-16T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jerod and Adam share their thoughts on Clubhouse, Twitter Spaces, et al, then discuss the value and weight of hosting commentary onsite vs on Twitter, Slack, etc. Let us know what you think in the comments.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Less JavaScript more HTMX (JS Party #171)]]></title>
+        <id>changelog.com/6/1326</id>
+        <link href="https://changelog.com/jsparty/171"/>
+        <updated>2021-04-16T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Jerod & Feross learn all about htmx (a pragmatic approach to web frontends) and _hyperscript (an experimental scripting language inspired by HyperTalk) with special guest Carson from Big Sky Software. Thanks to Rajasegar Chandran for requesting this episode!]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The ultimate guide to crafting your GopherCon proposal (Go Time #175)]]></title>
+        <id>changelog.com/2/1328</id>
+        <link href="https://changelog.com/gotime/175"/>
+        <updated>2021-04-15T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Call for Proposals for GopherCon 2021 is open from Monday, April 5th to Sunday, April 25th. Kris Brandow, an experienced GopherCon speaker, has published a series of guides to assist Gophers as they craft their proposals and think about submitting. In this episode Kris reads through his guide, discussing the four parts with a GopherCon newbie, Angelica Hill, who spoke for the first time at GopherCon last year, and is a first time CFP reviewer this year.]]></summary>
+        <author>
+            <name>Changelog Media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#229 Has one of your dependencies died?]]></title>
+        <id>710a43cd-6bc1-43d6-adb1-e4346f8d1640</id>
+        <link href="https://pythonbytes.fm/episodes/show/229/has-one-of-your-dependencies-died"/>
+        <updated>2021-04-15T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Watch the live stream:
+Watch on YouTube
+About the show
+Sponsored by us! Support our work through:
+Our courses at Talk Python Training
+pytest book
+Patreon Supporters
+Special guests: 
+Gwendolyn Faraday
+Gwendolyn’s YouTube
+Brian #1: Coverage.py (5.6b1) and third-party code
+Problems
+
+If you put your virtual environment in the same directory as your code, and try to run coverage, it’s tricky to get coverage to not attempt to cover everything in your venv also.
+Or even just running coverage run -m pytest with no …]]></summary>
+        <author>
+            <name>Python Bytes</name>
         </author>
     </entry>
     <entry>
@@ -182,6 +468,16 @@ Registration of Electors is open for one week and ending Tuesday April 20th, 202
 Registration of…]]></summary>
         <author>
             <name>Chaim Kirby</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Going full bore with Graphcore! (Practical AI #129)]]></title>
+        <id>changelog.com/7/1335</id>
+        <link href="https://changelog.com/practicalai/129"/>
+        <updated>2021-04-13T19:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Dave Lacey takes Daniel and Chris on a journey that connects the user interfaces that we already know - TensorFlow and PyTorch - with the layers that connect to the underlying hardware.  Along the way, we learn about Poplar Graph Framework Software.  If you are the type of practitioner who values ‘under the hood’ knowledge, then this is the episode for you.]]></summary>
+        <author>
+            <name>Changelog Media</name>
         </author>
     </entry>
     <entry>
