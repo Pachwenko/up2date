@@ -63,7 +63,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.2,\nDjango 3.1.10, and\nDjango 2.2.22.\nThese releases address the security issue with severity &quot;moderate&quot; detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+\nOn Python 3.9.5+, URLValidator didn't prohibit\nnewlines and tabs. If you used values with newlines in HTTP response, you co…",
           "link": "https://www.djangoproject.com/weblog/2021/may/06/security-releases/",
           "publishedOn": "2021-05-06T06:17:54.000Z",
-          "wordCount": 836,
+          "wordCount": 835,
           "title": "Django security releases issued: 3.2.2, 3.1.10, and 2.2.22"
         },
         {
@@ -72,7 +72,7 @@
           "description": "The fifth annual JetBrains PyCharm promotion in April netted the Django Software Foundation $45,000 this year, a slight increase over the $40,000 raised last year.\nThis amount represents roughly 20% of the DSF's overall budget, which goes directly into funding the continued development and support of Django via the Django Fellowship program and Django conferences worldwide.\nDjango Software Foundation\nThe Django Software Foundation is the non-profit foundation that supports the development of the Django Web …",
           "link": "https://www.djangoproject.com/weblog/2021/may/04/pycharm-dsf-campaign-2021-results/",
           "publishedOn": "2021-05-04T16:25:25.000Z",
-          "wordCount": 704,
+          "wordCount": 705,
           "title": "PyCharm &amp; DSF Campaign 2021 Results"
         },
         {
@@ -90,7 +90,7 @@
           "description": "With the completion of the Django 3.x major release cycle and in accordance with DEP-10 it is now time to collect candidates for the Django Technical Board.\n\r\n\r\nAccording to DEP-10, \"Any qualified person may register as a candidate; the candidate registration form and roster of candidates SHALL be maintained by the DSF Board, and candidates MUST provide evidence of their qualifications as part of registration. The DSF Board MAY challenge and reject the registration of candidates it believes do not meet the …",
           "link": "https://www.djangoproject.com/weblog/2021/apr/21/technical-board-candidate-registration/",
           "publishedOn": "2021-04-21T13:33:28.000Z",
-          "wordCount": 742,
+          "wordCount": 740,
           "title": "Technical Board Candidate Registration"
         },
         {
@@ -99,7 +99,7 @@
           "description": "Django Debug Toolbar security releases issued: 3.2.1, 2.2.1 and 1.11.1\nIn accordance with the security release policies that Django and Jazzband are following, the Jazzband project team for the Django Debug Toolbar project is issuing Django Debug Toolbar 3.2.1, Django Debug Toolbar 2.2.1 and Django Debug Toolbar 1.11.1. These releases address the security issue with severity &quot;high&quot; detailed below. We encourage all users of Django Debug Toolbar to upgrade as soon as possible.\nCVE-2021-30459 - SQL I…",
           "link": "https://www.djangoproject.com/weblog/2021/apr/14/debug-toolbar-security-releases/",
           "publishedOn": "2021-04-14T16:55:52.000Z",
-          "wordCount": 868,
+          "wordCount": 867,
           "title": "Django Debug Toolbar security releases issued: 3.2.1, 2.2.1 and 1.11.1."
         },
         {
