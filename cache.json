@@ -6,12 +6,21 @@
       "siteUrl": "http://pyfound.blogspot.com/",
       "articles": [
         {
+          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html",
+          "author": null,
+          "description": "Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.\n\n\nThe Python Language Summit features short presentations followed by group discussions. The topics can relate to the language itself, the standard library, \r\nthe development process, documentation, packaging, and more! In 2021, the summit was held over two days by videoconferenc…",
+          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html",
+          "publishedOn": "2021-05-13T20:27:00.000Z",
+          "wordCount": 976,
+          "title": "The 2021 Python Language Summit"
+        },
+        {
           "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/RswFJu_V2uE/debora-azevedo-finding-sense-of.html",
           "author": null,
           "description": "PyLadies Brazil co-founder,&nbsp; Débora Azevedo can encapsulate her feelings about the Python community in one word: Belonging.&nbsp;&nbsp;\n\nGrowing up in Natal, Brazil, Débora never would’ve guessed that Python would come to play such an important role in her life. “When I was first learning about programming in high school, I found it really difficult to comprehend. At that time I wrote code in a notebook, because I didn’t own a computer.”&nbsp;\n\nDébora stumbled upon her love for programming accidentally…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/RswFJu_V2uE/debora-azevedo-finding-sense-of.html",
           "publishedOn": "2021-05-12T16:20:00.000Z",
-          "wordCount": 1269,
+          "wordCount": 1276,
           "title": "Débora Azevedo: Finding A Sense of Belonging Through the Python Community"
         },
         {
@@ -63,7 +72,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.2,\nDjango 3.1.10, and\nDjango 2.2.22.\nThese releases address the security issue with severity &quot;moderate&quot; detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+\nOn Python 3.9.5+, URLValidator didn't prohibit\nnewlines and tabs. If you used values with newlines in HTTP response, you co…",
           "link": "https://www.djangoproject.com/weblog/2021/may/06/security-releases/",
           "publishedOn": "2021-05-06T06:17:54.000Z",
-          "wordCount": 835,
+          "wordCount": 836,
           "title": "Django security releases issued: 3.2.2, 3.1.10, and 2.2.22"
         },
         {
@@ -72,7 +81,7 @@
           "description": "The fifth annual JetBrains PyCharm promotion in April netted the Django Software Foundation $45,000 this year, a slight increase over the $40,000 raised last year.\nThis amount represents roughly 20% of the DSF's overall budget, which goes directly into funding the continued development and support of Django via the Django Fellowship program and Django conferences worldwide.\nDjango Software Foundation\nThe Django Software Foundation is the non-profit foundation that supports the development of the Django Web …",
           "link": "https://www.djangoproject.com/weblog/2021/may/04/pycharm-dsf-campaign-2021-results/",
           "publishedOn": "2021-05-04T16:25:25.000Z",
-          "wordCount": 706,
+          "wordCount": 705,
           "title": "PyCharm &amp; DSF Campaign 2021 Results"
         },
         {

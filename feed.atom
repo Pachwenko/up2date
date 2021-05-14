@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-13T12:54:44.483Z</id>
+    <id>urn:2021-05-14T00:50:19.588Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-13T12:54:44.483Z</updated>
+    <updated>2021-05-14T00:50:19.588Z</updated>
     <generator>osmosfeed 1.6.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html"/>
+        <updated>2021-05-13T20:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.
+
+
+The Python Language Summit features short presentations followed by group discussions. The topics can relate to the language itself, the standard library, 
+the development process, documentation, packaging, and more! In 2021, the summit was held over two days by videoconferenc…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Django bugfix releases issued: 3.2.3, 3.1.11, and 2.2.23]]></title>
         <id>https://www.djangoproject.com/weblog/2021/may/13/bugfix-releases/</id>
