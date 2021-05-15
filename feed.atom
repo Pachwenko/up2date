@@ -1,15 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-14T00:50:19.588Z</id>
+    <id>urn:2021-05-15T00:47:15.154Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-14T00:50:19.588Z</updated>
+    <updated>2021-05-15T00:47:15.154Z</updated>
     <generator>osmosfeed 1.6.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Django 4.x Technical Board Election Results]]></title>
+        <id>https://www.djangoproject.com/weblog/2021/may/14/django-4x-technical-board-election-results/</id>
+        <link href="https://www.djangoproject.com/weblog/2021/may/14/django-4x-technical-board-election-results/"/>
+        <updated>2021-05-14T13:19:49.000Z</updated>
+        <summary type="html"><![CDATA[The Technical Board for the Django 4.x release cycle will be
+
+
+
+Andrew Godwin
+
+Florian Apolloner
+
+Simon Charette
+
+Adam Johnson
+
+Thomas Forbes
+
+
+
+Congratulations to the new board and a special thank you to departing Technical Board members James Bennett and Markus Holtermann.
+
+
+Thank you to everyone who participated in the nominations and voting.
+
+
+Voting breakdown:
+
+
+49 Eligible voters opted-in to voting
+
+46 Eligible voters cast votes
+
+ 
+
+Condorcet pairwise evaluation results
+
+
+Andrew …]]></summary>
+        <author>
+            <name>Chaim Kirby</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: Welcome, Introductions, Guidelines]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/d6dgSmSBl6M/the-2021-python-language-summit-welcome.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/d6dgSmSBl6M/the-2021-python-language-summit-welcome.html"/>
+        <updated>2021-05-14T01:05:00.000Z</updated>
+        <summary type="html"><![CDATA[As attendees slowly filtered into the virtual event leading up to the official start time, they were clearly happy to see each other and have the chance to get together virtually even though PyCon US and the language summit have had to be remote for two years in a row. Although we would like to see each other in person again, one benefit of keeping the summit virtual this year was that more people were able to participate than usual.
+Normally, the number of people attending would be small enough that there …]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 2021 Python Language Summit]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html"/>
-        <updated>2021-05-13T20:27:00.000Z</updated>
+        <updated>2021-05-13T20:27:00.001Z</updated>
         <summary type="html"><![CDATA[Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.
 
 
@@ -183,18 +238,6 @@ We encourage you to make time to address deprecated patterns in your apps and ad
 According to DEP-10, "Any qualified person may register as a candidate; the candidate registration form and roster of candidates SHALL be maintained by the DSF Board, and candidates MUST provide evidence of their qualifications as part of registration. The DSF Board MAY challenge and reject the registration of candidates it believes do not meet the …]]></summary>
         <author>
             <name>Chaim Kirby</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Django Debug Toolbar security releases issued: 3.2.1, 2.2.1 and 1.11.1.]]></title>
-        <id>https://www.djangoproject.com/weblog/2021/apr/14/debug-toolbar-security-releases/</id>
-        <link href="https://www.djangoproject.com/weblog/2021/apr/14/debug-toolbar-security-releases/"/>
-        <updated>2021-04-14T16:55:52.000Z</updated>
-        <summary type="html"><![CDATA[Django Debug Toolbar security releases issued: 3.2.1, 2.2.1 and 1.11.1
-In accordance with the security release policies that Django and Jazzband are following, the Jazzband project team for the Django Debug Toolbar project is issuing Django Debug Toolbar 3.2.1, Django Debug Toolbar 2.2.1 and Django Debug Toolbar 1.11.1. These releases address the security issue with severity &quot;high&quot; detailed below. We encourage all users of Django Debug Toolbar to upgrade as soon as possible.
-CVE-2021-30459 - SQL I…]]></summary>
-        <author>
-            <name>Jannis Leidel</name>
         </author>
     </entry>
 </feed>
