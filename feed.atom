@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-15T00:47:15.154Z</id>
+    <id>urn:2021-05-16T00:51:56.428Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-15T00:47:15.154Z</updated>
-    <generator>osmosfeed 1.6.0</generator>
+    <updated>2021-05-16T00:51:56.428Z</updated>
+    <generator>osmosfeed 1.7.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Django 4.x Technical Board Election Results]]></title>
@@ -93,11 +93,11 @@ The release package and checksums are available from our downloads page, as well
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/RswFJu_V2uE/debora-azevedo-finding-sense-of.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/RswFJu_V2uE/debora-azevedo-finding-sense-of.html"/>
         <updated>2021-05-12T16:20:00.000Z</updated>
-        <summary type="html"><![CDATA[PyLadies Brazil co-founder,&nbsp; Débora Azevedo can encapsulate her feelings about the Python community in one word: Belonging.&nbsp;&nbsp;
+        <summary type="html"><![CDATA[PyLadies Brazil co-founder,  Débora Azevedo can encapsulate her feelings about the Python community in one word: Belonging.  
 
-Growing up in Natal, Brazil, Débora never would’ve guessed that Python would come to play such an important role in her life. “When I was first learning about programming in high school, I found it really difficult to comprehend. At that time I wrote code in a notebook, because I didn’t own a computer.”&nbsp;
+Growing up in Natal, Brazil, Débora never would’ve guessed that Python would come to play such an important role in her life. “When I was first learning about programming in high school, I found it really difficult to comprehend. At that time I wrote code in a notebook, because I didn’t own a computer.” 
 
-Débora stumbled upon her love for programming accidentally…]]></summary>
+Débora stumbled upon her love for programming accidentally when she was studyi…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
         </author>
@@ -125,10 +125,11 @@ is issuing
 Django 3.2.2,
 Django 3.1.10, and
 Django 2.2.22.
-These releases address the security issue with severity &quot;moderate&quot; detailed below. We encourage all users of Django to upgrade as soon as possible.
+These releases address the security issue with severity "moderate" detailed below. We encourage all users of Django to upgrade as soon as possible.
 CVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+
 On Python 3.9.5+, URLValidator didn't prohibit
-newlines and tabs. If you used values with newlines in HTTP response, you co…]]></summary>
+newlines and tabs. If you used values with newlines in HTTP response, you could
+suffer…]]></summary>
         <author>
             <name>Mariusz Felisiak</name>
         </author>
@@ -181,11 +182,11 @@ Microsoft has been a long-time supporter of the Python Software Foundation, star
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/zGQQz8trs7c/announcing-six-scientific-python-grants.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/zGQQz8trs7c/announcing-six-scientific-python-grants.html"/>
         <updated>2021-04-29T16:00:00.002Z</updated>
-        <summary type="html"><![CDATA[The Scientific Python Working Group considers funding proposals that advance the scientific use of Python. In the past&nbsp;these have most often been workshops and conferences, but we also fund project improvements and outreach. Recently, we broadened our scope to include developer sprints.
+        <summary type="html"><![CDATA[The Scientific Python Working Group considers funding proposals that advance the scientific use of Python. In the past these have most often been workshops and conferences, but we also fund project improvements and outreach. Recently, we broadened our scope to include developer sprints.
 Our most recent call for proposals has closed, and we are excited to announce six grants to:
 
-Spyder&nbsp;for the development of online learning content for the Spyder IDE,
-Nicolas McKibben to implement MRI reconstructi…]]></summary>
+Spyder for the development of online learning content for the Spyder IDE,
+Nicolas McKibben to implement MRI reconstruction algorit…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
         </author>
@@ -196,19 +197,20 @@ Nicolas McKibben to implement MRI reconstructi…]]></summary>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/-01rNDGeJjI/python-software-foundation-fellow.html"/>
         <updated>2021-04-23T18:23:00.000Z</updated>
         <summary type="html"><![CDATA[The PSF is pleased to announced its first batch of PSF Fellows in 2021! Let us welcome the new PSF Fellows for Q1! The following people continue to do amazing things for the Python community:
-Briana Augenreich&nbsp;
-Georgi Ker&nbsp;
+Briana Augenreich 
+Georgi Ker 
 Twitter, GitHub
 Joe Banks
 Twitter, GitHub
 Leah Silen
 Leon Sandøy
-Twitter, Website, LinkedIn, GitHub, YouTube&nbsp;
+Twitter, Website, LinkedIn, GitHub, YouTube 
 Sebastiaan Zeeff
 Website, Twitter, LinkedIn
 Zac Hatfield-Dodds
 Website, GitHub
-Thank you for your continued contributions. We have added you to our Fellow roster&nb…]]></summary>
+Thank you for your continued contributions. We have added you to our Fellow roster online.
+The above…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
         </author>

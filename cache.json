@@ -26,7 +26,7 @@
         {
           "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/RswFJu_V2uE/debora-azevedo-finding-sense-of.html",
           "author": null,
-          "description": "PyLadies Brazil co-founder,&nbsp; Débora Azevedo can encapsulate her feelings about the Python community in one word: Belonging.&nbsp;&nbsp;\n\nGrowing up in Natal, Brazil, Débora never would’ve guessed that Python would come to play such an important role in her life. “When I was first learning about programming in high school, I found it really difficult to comprehend. At that time I wrote code in a notebook, because I didn’t own a computer.”&nbsp;\n\nDébora stumbled upon her love for programming accidentally…",
+          "description": "PyLadies Brazil co-founder,  Débora Azevedo can encapsulate her feelings about the Python community in one word: Belonging.  \n\nGrowing up in Natal, Brazil, Débora never would’ve guessed that Python would come to play such an important role in her life. “When I was first learning about programming in high school, I found it really difficult to comprehend. At that time I wrote code in a notebook, because I didn’t own a computer.” \n\nDébora stumbled upon her love for programming accidentally when she was studyi…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/RswFJu_V2uE/debora-azevedo-finding-sense-of.html",
           "publishedOn": "2021-05-12T16:20:00.000Z",
           "wordCount": 1283,
@@ -44,7 +44,7 @@
         {
           "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/zGQQz8trs7c/announcing-six-scientific-python-grants.html",
           "author": null,
-          "description": "The Scientific Python Working Group considers funding proposals that advance the scientific use of Python. In the past&nbsp;these have most often been workshops and conferences, but we also fund project improvements and outreach. Recently, we broadened our scope to include developer sprints.\nOur most recent call for proposals has closed, and we are excited to announce six grants to:\n\nSpyder&nbsp;for the development of online learning content for the Spyder IDE,\nNicolas McKibben to implement MRI reconstructi…",
+          "description": "The Scientific Python Working Group considers funding proposals that advance the scientific use of Python. In the past these have most often been workshops and conferences, but we also fund project improvements and outreach. Recently, we broadened our scope to include developer sprints.\nOur most recent call for proposals has closed, and we are excited to announce six grants to:\n\nSpyder for the development of online learning content for the Spyder IDE,\nNicolas McKibben to implement MRI reconstruction algorit…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/zGQQz8trs7c/announcing-six-scientific-python-grants.html",
           "publishedOn": "2021-04-29T16:00:00.002Z",
           "wordCount": 816,
@@ -53,7 +53,7 @@
         {
           "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/-01rNDGeJjI/python-software-foundation-fellow.html",
           "author": null,
-          "description": "The PSF is pleased to announced its first batch of PSF Fellows in 2021! Let us welcome the new PSF Fellows for Q1! The following people continue to do amazing things for the Python community:\nBriana Augenreich&nbsp;\nGeorgi Ker&nbsp;\nTwitter, GitHub\nJoe Banks\nTwitter, GitHub\nLeah Silen\nLeon Sandøy\nTwitter, Website, LinkedIn, GitHub, YouTube&nbsp;\nSebastiaan Zeeff\nWebsite, Twitter, LinkedIn\nZac Hatfield-Dodds\nWebsite, GitHub\nThank you for your continued contributions. We have added you to our Fellow roster&nb…",
+          "description": "The PSF is pleased to announced its first batch of PSF Fellows in 2021! Let us welcome the new PSF Fellows for Q1! The following people continue to do amazing things for the Python community:\nBriana Augenreich \nGeorgi Ker \nTwitter, GitHub\nJoe Banks\nTwitter, GitHub\nLeah Silen\nLeon Sandøy\nTwitter, Website, LinkedIn, GitHub, YouTube \nSebastiaan Zeeff\nWebsite, Twitter, LinkedIn\nZac Hatfield-Dodds\nWebsite, GitHub\nThank you for your continued contributions. We have added you to our Fellow roster online.\nThe above…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/-01rNDGeJjI/python-software-foundation-fellow.html",
           "publishedOn": "2021-04-23T18:23:00.000Z",
           "wordCount": 902,
@@ -72,7 +72,7 @@
           "description": "The Technical Board for the Django 4.x release cycle will be\n\r\n\r\n\r\nAndrew Godwin\n\r\nFlorian Apolloner\n\r\nSimon Charette\n\r\nAdam Johnson\n\r\nThomas Forbes\n\r\n\r\n\r\nCongratulations to the new board and a special thank you to departing Technical Board members James Bennett and Markus Holtermann.\n\r\n\r\nThank you to everyone who participated in the nominations and voting.\n\r\n\r\nVoting breakdown:\n\r\n\r\n49 Eligible voters opted-in to voting\n\r\n46 Eligible voters cast votes\n\r\n \r\n\r\nCondorcet pairwise evaluation results\n\r\n\r\nAndrew …",
           "link": "https://www.djangoproject.com/weblog/2021/may/14/django-4x-technical-board-election-results/",
           "publishedOn": "2021-05-14T13:19:49.000Z",
-          "wordCount": 683,
+          "wordCount": 687,
           "title": "Django 4.x Technical Board Election Results"
         },
         {
@@ -81,13 +81,13 @@
           "description": "Today we've issued\n3.2.3,\n3.1.11, and\n2.2.23  bugfix releases.\nThe release package and checksums are available from our downloads page, as well as from the Python Package Index. The PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.",
           "link": "https://www.djangoproject.com/weblog/2021/may/13/bugfix-releases/",
           "publishedOn": "2021-05-13T07:30:54.000Z",
-          "wordCount": 602,
+          "wordCount": 597,
           "title": "Django bugfix releases issued: 3.2.3, 3.1.11, and 2.2.23"
         },
         {
           "id": "https://www.djangoproject.com/weblog/2021/may/06/security-releases/",
           "author": "Mariusz Felisiak",
-          "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.2,\nDjango 3.1.10, and\nDjango 2.2.22.\nThese releases address the security issue with severity &quot;moderate&quot; detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+\nOn Python 3.9.5+, URLValidator didn't prohibit\nnewlines and tabs. If you used values with newlines in HTTP response, you co…",
+          "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.2,\nDjango 3.1.10, and\nDjango 2.2.22.\nThese releases address the security issue with severity \"moderate\" detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+\nOn Python 3.9.5+, URLValidator didn't prohibit\nnewlines and tabs. If you used values with newlines in HTTP response, you could\nsuffer…",
           "link": "https://www.djangoproject.com/weblog/2021/may/06/security-releases/",
           "publishedOn": "2021-05-06T06:17:54.000Z",
           "wordCount": 836,
@@ -99,7 +99,7 @@
           "description": "The fifth annual JetBrains PyCharm promotion in April netted the Django Software Foundation $45,000 this year, a slight increase over the $40,000 raised last year.\nThis amount represents roughly 20% of the DSF's overall budget, which goes directly into funding the continued development and support of Django via the Django Fellowship program and Django conferences worldwide.\nDjango Software Foundation\nThe Django Software Foundation is the non-profit foundation that supports the development of the Django Web …",
           "link": "https://www.djangoproject.com/weblog/2021/may/04/pycharm-dsf-campaign-2021-results/",
           "publishedOn": "2021-05-04T16:25:25.000Z",
-          "wordCount": 705,
+          "wordCount": 706,
           "title": "PyCharm &amp; DSF Campaign 2021 Results"
         },
         {
@@ -117,7 +117,7 @@
           "description": "With the completion of the Django 3.x major release cycle and in accordance with DEP-10 it is now time to collect candidates for the Django Technical Board.\n\r\n\r\nAccording to DEP-10, \"Any qualified person may register as a candidate; the candidate registration form and roster of candidates SHALL be maintained by the DSF Board, and candidates MUST provide evidence of their qualifications as part of registration. The DSF Board MAY challenge and reject the registration of candidates it believes do not meet the …",
           "link": "https://www.djangoproject.com/weblog/2021/apr/21/technical-board-candidate-registration/",
           "publishedOn": "2021-04-21T13:33:28.000Z",
-          "wordCount": 740,
+          "wordCount": 741,
           "title": "Technical Board Candidate Registration"
         }
       ]
@@ -148,5 +148,5 @@
       ]
     }
   ],
-  "cliVersion": "1.6.0"
+  "cliVersion": "1.7.0"
 }
