@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-17T00:47:52.183Z</id>
+    <id>urn:2021-05-18T00:52:01.355Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-17T00:47:52.183Z</updated>
-    <generator>osmosfeed 1.7.1</generator>
+    <updated>2021-05-18T00:52:01.355Z</updated>
+    <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: Progress on Running Multiple Python Interpreters in Parallel in the Same Process]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/JSbNFZCoINo/the-2021-python-language-summit_16.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/JSbNFZCoINo/the-2021-python-language-summit_16.html"/>
+        <updated>2021-05-17T03:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Victor Stinner and Dong-hee Na gave a presentation at the 2021 Python Language Summit about running multiple Python interpreters in parallel in the same process.
+Use Cases 
+
+Victory Stinner started by explaining why we would need to make the changes that they're discussing. One use case would be if you wanted to embed Python and extend the features of your application, like Vim, Blender, LibreOffice, and pybind11. Another use case is subinterpreters. For example, to handle HTTP requests, there is Apache mod…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 2021 Python Language Summit: PEP 654 — Exception Groups and except*]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YfwxVhCg4nM/the-2021-python-language-summit-pep-654.html</id>
@@ -87,7 +100,7 @@ Normally, the number of people attending would be small enough that there …]]>
         <title type="html"><![CDATA[The 2021 Python Language Summit]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html"/>
-        <updated>2021-05-13T20:27:00.003Z</updated>
+        <updated>2021-05-13T20:27:00.004Z</updated>
         <summary type="html"><![CDATA[Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.
 
 
