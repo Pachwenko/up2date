@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-18T00:52:01.355Z</id>
+    <id>urn:2021-05-19T00:47:25.308Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-18T00:52:01.355Z</updated>
+    <updated>2021-05-19T00:47:25.308Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[The 2021 Python Language Summit: Progress on Running Multiple Python Interpreters in Parallel in the Same Process]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/JSbNFZCoINo/the-2021-python-language-summit_16.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/JSbNFZCoINo/the-2021-python-language-summit_16.html"/>
-        <updated>2021-05-17T03:53:00.000Z</updated>
+        <updated>2021-05-17T03:53:00.001Z</updated>
         <summary type="html"><![CDATA[Victor Stinner and Dong-hee Na gave a presentation at the 2021 Python Language Summit about running multiple Python interpreters in parallel in the same process.
 Use Cases 
 
-Victory Stinner started by explaining why we would need to make the changes that they're discussing. One use case would be if you wanted to embed Python and extend the features of your application, like Vim, Blender, LibreOffice, and pybind11. Another use case is subinterpreters. For example, to handle HTTP requests, there is Apache mod…]]></summary>
+Victor Stinner started by explaining why we would need to make the changes that they're discussing. One use case would be if you wanted to embed Python and extend the features of your application, like Vim, Blender, LibreOffice, and pybind11. Another use case is subinterpreters. For example, to handle HTTP requests, there is Apache mod_…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
         </author>
