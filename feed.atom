@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-20T00:44:03.244Z</id>
+    <id>urn:2021-05-21T00:48:46.284Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-20T00:44:03.244Z</updated>
+    <updated>2021-05-21T00:48:46.284Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: Making CPython Faster]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/Mb7GnQBu9NY/the-2021-python-language-summit-making.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/Mb7GnQBu9NY/the-2021-python-language-summit-making.html"/>
+        <updated>2021-05-21T00:42:00.000Z</updated>
+        <summary type="html"><![CDATA[At the 2021 Python Language Summit, Guido van Rossum gave a presentation about plans for making CPython faster. This presentation came right after Dino Viehland's talk about Instagram's performance improvements to CPython and made multiple references to it.
+ 
+ 
+Can We Make CPython Faster?
+We can, but it's not yet clear by how much. Last October, Mark Shannon shared a plan on GitHub and python-dev. He asked for feedback and said that he could make CPython five times faster in four years, or fifty percent fas…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: CPython Performance Improvements at Instagram]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4Tpn4LZPws4/the-2021-python-language-summit-cpython.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4Tpn4LZPws4/the-2021-python-language-summit-cpython.html"/>
+        <updated>2021-05-20T04:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Dino Viehland gave a presentation at the 2021 Python Language Summit about improvements to CPython's performance at Instagram. 
+
+Cinder is Instagram's internal performance-oriented production version of
+CPython 3.8, so all of the comparisons in this presentation dealt with Python 3.8. Cinder has a lot of performance optimizations, including
+bytecode inline caching, eager evaluation of coroutines, a method-at-a-time
+JIT, and an experimental bytecode compiler that uses type annotations to emit
+type-specia…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Ember JS Framework Takes the GAAD Pledge]]></title>
+        <id>https://blog.emberjs.com/gaad-2021</id>
+        <link href="https://blog.emberjs.com/gaad-2021"/>
+        <updated>2021-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As we join Global Accessibility Awareness Day (GAAD) in celebrating its tenth anniversary, we are delighted to announce that the Ember JavaScript Framework has taken the GAAD pledge to make accessibility a core value of our framework.
+For those who know the project well, this will come as no surprise. It’s no secret that we think that accessibility is an integral part of quality code. Ember.js is committed to providing a well-lit path for developer success, and our plans to make it easier for developers to …]]></summary>
+        <author>
+            <name>Ember.js Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 2021 Python Language Summit: Progress on Running Multiple Python Interpreters in Parallel in the Same Process]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/JSbNFZCoINo/the-2021-python-language-summit_16.html</id>
@@ -102,7 +143,7 @@ Normally, the number of people attending would be small enough that there …]]>
         <title type="html"><![CDATA[The 2021 Python Language Summit]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html"/>
-        <updated>2021-05-13T20:27:00.004Z</updated>
+        <updated>2021-05-13T20:27:00.005Z</updated>
         <summary type="html"><![CDATA[Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.
 
 
