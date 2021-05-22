@@ -10,7 +10,7 @@
           "author": null,
           "description": "At the 2021 Python Language Summit, Guido van Rossum gave a presentation about plans for making CPython faster. This presentation came right after Dino Viehland's talk about Instagram's performance improvements to CPython and made multiple references to it.\n \n \nCan We Make CPython Faster?\nWe can, but it's not yet clear by how much. Last October, Mark Shannon shared a plan on GitHub and python-dev. He asked for feedback and said that he could make CPython five times faster in four years, or fifty percent fas…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/Mb7GnQBu9NY/the-2021-python-language-summit-making.html",
-          "publishedOn": "2021-05-21T00:42:00.000Z",
+          "publishedOn": "2021-05-21T00:42:00.001Z",
           "wordCount": 1198,
           "title": "The 2021 Python Language Summit: Making CPython Faster"
         },
@@ -55,7 +55,7 @@
           "author": null,
           "description": "Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.\n\n\nThe Python Language Summit features short presentations followed by group discussions. The topics can relate to the language itself, the standard library, \r\nthe development process, documentation, packaging, and more! In 2021, the summit was held over two days by videoconferenc…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html",
-          "publishedOn": "2021-05-13T20:27:00.005Z",
+          "publishedOn": "2021-05-13T20:27:00.006Z",
           "wordCount": 1019,
           "title": "The 2021 Python Language Summit"
         },
@@ -126,7 +126,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.2,\nDjango 3.1.10, and\nDjango 2.2.22.\nThese releases address the security issue with severity \"moderate\" detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+\nOn Python 3.9.5+, URLValidator didn't prohibit\nnewlines and tabs. If you used values with newlines in HTTP response, you could\nsuffer…",
           "link": "https://www.djangoproject.com/weblog/2021/may/06/security-releases/",
           "publishedOn": "2021-05-06T06:17:54.000Z",
-          "wordCount": 837,
+          "wordCount": 836,
           "title": "Django security releases issued: 3.2.2, 3.1.10, and 2.2.22"
         },
         {
@@ -144,17 +144,8 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.1,\nDjango 3.1.9, and\nDjango 2.2.21.\nThese release addresses the security issue detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-31542: Potential directory-traversal via uploaded files\nMultiPartParser, UploadedFile, and FieldFile allowed\ndirectory-traversal via uploaded files with suitably crafted file names.\nIn order to mitigate this risk, stricter basename and path sanitation is no…",
           "link": "https://www.djangoproject.com/weblog/2021/may/04/security-releases/",
           "publishedOn": "2021-05-04T08:51:35.000Z",
-          "wordCount": 792,
+          "wordCount": 793,
           "title": "Django security releases issued: 3.2.1, 3.1.9, and 2.2.21"
-        },
-        {
-          "id": "https://www.djangoproject.com/weblog/2021/apr/21/technical-board-candidate-registration/",
-          "author": "Chaim Kirby",
-          "description": "With the completion of the Django 3.x major release cycle and in accordance with DEP-10 it is now time to collect candidates for the Django Technical Board.\n\r\n\r\nAccording to DEP-10, \"Any qualified person may register as a candidate; the candidate registration form and roster of candidates SHALL be maintained by the DSF Board, and candidates MUST provide evidence of their qualifications as part of registration. The DSF Board MAY challenge and reject the registration of candidates it believes do not meet the …",
-          "link": "https://www.djangoproject.com/weblog/2021/apr/21/technical-board-candidate-registration/",
-          "publishedOn": "2021-04-21T13:33:28.000Z",
-          "wordCount": 741,
-          "title": "Technical Board Candidate Registration"
         }
       ]
     },
