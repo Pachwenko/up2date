@@ -16,6 +16,34 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-05-23">2021-05-23</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://pyfound.blogspot.com/">Python Software Foundation News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The 2021 Python Language Summit: Lightning Talks, Round 1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/fTXZvKxS0Zo/the-2021-python-language-summit_22.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>The first day of the 2021 Python Language Summit finished with a series of lightning talks from Petr Viktorin, Lorena Mesa, Scott Shawcroft, and Jeff Allen.
+
+
+ 
+The Stable ABI and Limited C API
+Petr Viktorin spoke about the stable ABI and limited C API. The stable ABI is a way to compile a C extension on Python 3.x and run it on Python 3.x+. It was introduced in 2009 with PEP 384. You can use it to simplify extension maintenance, and it will allow you to support more versions. But it does have lower performance, and you can&#x27;t do everything with it that you could with the full API.
+Petr Viktorin would like to see it used for bindings and embeddings. If Python is just a small part of your application and you don&#x27;t want to invest a lot of maintainer time into supporting Python, then that woul…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-05-22">2021-05-22</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -33,7 +61,8 @@
  
  
 What Is HPy?
-HPy is an alternative API for writing C extensions. Although the current Python C API shows CPython implementation details, HPy hides all the implementation details that would otherwise be exposed. Antonio Cuni said that, if everyone used HPy, then it would help Pyt…</span>
+HPy is an alternative API for writing C extensions. Although the current Python C API shows CPython implementation details, HPy hides all the implementation details that would otherwise be exposed. Antonio Cuni said that, if everyone used HPy, then it would help Python evolve in the long term.
+Using HPy extensions will make it easier to support alternative implementations. HPy is designed to be GC friendly and isn&#x27;t build on top of ref counting. It is also designed to have zero overhead on CPython, so you can port an existing module from the Python…</span>
                   </div>
                 </a>
               </details>
@@ -59,7 +88,10 @@ HPy is an alternative API for writing C extensions. Although the current Python 
  
  
 Can We Make CPython Faster?
-We can, but it&#x27;s not yet clear by how much. Last October, Mark Shannon shared a plan on GitHub and python-dev. He asked for feedback and said that he could make CPython five times faster in four years, or fifty percent fas…</span>
+We can, but it&#x27;s not yet clear by how much. Last October, Mark Shannon shared a plan on GitHub and python-dev. He asked for feedback and said that he could make CPython five times faster in four years, or fifty percent faster per year for four years in a row. He was looking for funding and wouldn&#x27;t reveal the details of his plan without it.
+How Will We Make CPython Faster? 
+
+Seven months ago, Guido van Rossum left a brief retirement to work at Microsoft. He was given the freedom to pick a project and deci…</span>
                   </div>
                 </a>
               </details>
@@ -80,7 +112,9 @@ We can, but it&#x27;s not yet clear by how much. Last October, Mark Shannon shar
 Ember&#x27;s 10 year anniversary, Prettier for Handlebars support, Embroider in 3.5 weeks, GAAD pledge, quickstart to authentication, built with Ember: Fleetbase, and new and shiny add-ons ✨
 Happy 10 year anniversary, Ember.js! 🎉
 Many thanks to Natasha Fel and Andrey Fel (@andreyfel) for sharing their photos from Ember Nizhny Novgorod&#x27;s Meetup, which featured a celebratory Nizhny Novgorod Tomster cake for Ember&#x27;s big anniversary! Check out more photos from the meetup here.
-Prettier for Handleb…</span>
+Prettier for Handlebars support 🙌
+Prettier can now officially format HTML templates with Handlebars (HBS) in the newly released version 2.3.0. Thank you to Cyrille David (@dcyriller) for pushing this initiative, which started in 2017, through the finish line.
+Prettier is an opinionated code formatter. It e…</span>
                   </div>
                 </a>
               </details>
@@ -108,7 +142,9 @@ Cinder is Instagram&#x27;s internal performance-oriented production version of
 CPython 3.8, so all of the comparisons in this presentation dealt with Python 3.8. Cinder has a lot of performance optimizations, including
 bytecode inline caching, eager evaluation of coroutines, a method-at-a-time
 JIT, and an experimental bytecode compiler that uses type annotations to emit
-type-specia…</span>
+type-specialized bytecode that performs better in the JIT.
+Successful Improvements
+Instagram did a lot of work with asynchronous I/O. One big change was sending and receiving values without raising StopIteration. Raising all of those exceptions was a huge source of overhead. On simple benchmarks, t…</span>
                   </div>
                 </a>
               </details>
@@ -126,7 +162,9 @@ type-specia…</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(2 min)</span>
                     <span>As we join Global Accessibility Awareness Day (GAAD) in celebrating its tenth anniversary, we are delighted to announce that the Ember JavaScript Framework has taken the GAAD pledge to make accessibility a core value of our framework.
-For those who know the project well, this will come as no surprise. It’s no secret that we think that accessibility is an integral part of quality code. Ember.js is committed to providing a well-lit path for developer success, and our plans to make it easier for developers to …</span>
+For those who know the project well, this will come as no surprise. It’s no secret that we think that accessibility is an integral part of quality code. Ember.js is committed to providing a well-lit path for developer success, and our plans to make it easier for developers to write accessible code are part of that. In 2020, the Ember Accessibility Strike Team became the Ember Accessibility Working Group, demonstrating our commitment to long-term accessibility growth in the framework.
+What We&#x27;ve Done So Far
+Ember has also been shipping improvements with the “a…</span>
                   </div>
                 </a>
               </details>
@@ -155,7 +193,10 @@ For those who know the project well, this will come as no surprise. It’s no se
 
 Use Cases 
 
-Victor Stinner started by explaining why we would need to make the changes that they&#x27;re discussing. One use case would be if you wanted to embed Python and extend the features of your application, like Vim, Blender, LibreOffice, and pybind11. Another use case is subinterpreters. For example, to handle HTTP requests, there is Apache …</span>
+Victor Stinner started by explaining why we would need to make the changes that they&#x27;re discussing. One use case would be if you wanted to embed Python and extend the features of your application, like Vim, Blender, LibreOffice, and pybind11. Another use case is subinterpreters. For example, to handle HTTP requests, there is Apache mod_wsgi, which uses subinterpreters. There are also plugins for WeeChat, which is an IRC client written in C.
+
+Embedding Python
+One of the current issues with embedding Python is that it doesn&#x27;t explicitly release memory at exit. If you use a tool to track memory leaks, such as Valgrind…</span>
                   </div>
                 </a>
               </details>
@@ -188,7 +229,8 @@ The purpose of this PEP is to help Python users handle unrelated exceptions. Rig
 
 Raise one exception and throw away the others, in which case you&#x27;re losing exceptions
 
-Return a list of ex…</span>
+Return a list of exceptions instead of raising them, in which case they become error codes rather than exceptions, so you can&#x27;t handle them with exception-handling mechanisms
+Wrap the list of exceptions in a wrapper exception and use it as a list of error codes, which still can&#x27;t be handled with exception-…</span>
                   </div>
                 </a>
               </details>
@@ -211,7 +253,9 @@ Return a list of ex…</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>As attendees slowly filtered into the virtual event leading up to the official start time, they were clearly happy to see each other and have the chance to get together virtually even though PyCon US and the language summit have had to be remote for two years in a row. Although we would like to see each other in person again, one benefit of keeping the summit virtual this year was that more people were able to participate than usual.
-Normally, the number of people attending would be small enough that there …</span>
+Normally, the number of people attending would be small enough that there would be time for each person to take a moment to introduce themselves to the group. Since there were more participants than usual this year, Łukasz Langa walked us through a slide deck that had a page for each of the attendees. It was an international event, with participants attending from North America, South America, Europe, Africa, the Middle East, Asia, and Oceania.
+After Łukasz finished the introductions, Ewa Jodlowska told us about the code of conduct and the procedures in place to help all participants feel welcome and have a positive experience.
+With the 2021 Python Language Summit off to a good start, we took a group photo and were ready to launch into the talks!</span>
                   </div>
                 </a>
               </details>
@@ -262,7 +306,15 @@ Voting breakdown:
 Condorcet pairwise evaluation results
 
 
-Andrew …</span>
+Andrew Godwin  (Condorcet winner: wins contests with all other choices)
+
+Florian Apolloner  loses to Andrew Godwin by 25–8
+
+ Simon Charette  loses to Andrew Godwin by 28–7, loses to Florian Apolloner by 23–9
+
+Adam Johnson  loses to Andrew Godwin by 27–9, loses to Simon Charette by 19–18
+
+Thomas Forbes  loses to Andrew Godwin by 30–4, loses to Adam Johnson by 25–5</span>
                   </div>
                 </a>
               </details>
@@ -288,7 +340,69 @@ Andrew …</span>
 
 
 The Python Language Summit features short presentations followed by group discussions. The topics can relate to the language itself, the standard library, 
-the development process, documentation, packaging, and more! In 2021, the summit was held over two days by videoconferenc…</span>
+the development process, documentation, packaging, and more! In 2021, the summit was held over two days by videoconference and was led by Mariatta Wijaya and Łukasz 
+Langa.
+
+If you weren&#x27;t able to attend the summit, then you can still stay up to date with what&#x27;s happening in the world of Python by reading blog posts about all of the talks that were given. Over the next few weeks, you&#x27;ll be able to 
+dive into all of the news from the summit so you can join in 
+on the big conversations that are happening in the Python community.
+
+
+Day 1 
+
+ 
+Welcome, Introductions, Guidelines 
+Łukasz 
+Langa 
+
+ 
+PEP 654 — Exception Groups and except* 
+Irit Katriel, Yury Selivanov, and Guido van Rossum 
+
+ 
+Progress on Running Multiple Python Interpreters in Parallel in the Same Process 
+Victor Stinner and Dong-hee Na
+ 
+CPython Improvements at Instagram 
+Dino Viehland
+ 
+Making CPython Faster 
+Guido van Rossum
+ 
+HPy — Present and Future 
+Antonio Cuni
+ 
+Lightning Talks, Round 1 
+Petr Viktorin, Lorena Mesa, Scott Shawcroft, and Jeff Allen
+ 
+
+
+Day 2 
+
+
+ 
+
+The Challenges of Packaging Python for a Linux Distro 
+Matthias Klose
+ 
+The Python Documentation Work Group 
+Mariatta Wijaya and Carol Willing
+ 
+What Is the stdlib? 
+Brett Cannon
+ 
+What Should I Work on as a Core Dev? 
+Eric Snow
+ 
+Fuzzing and Testing Python With Properties 
+Zac Hatfield-Dodds
+
+ 
+Lightning Talks, Round 2 
+Ronny Pfannschmidt, Pablo Galindo, Batuhan Taskaya, Luciano Ramalho, Jason R. Coombs, Mark Shannon, and Tobias Kohn 
+ 
+
+We hope you enjoy diving into what went on at the summit, and we&#x27;re looking forward to seeing how the Python community continues these discussions.</span>
                   </div>
                 </a>
               </details>
@@ -335,7 +449,7 @@ The release package and checksums are available from our downloads page, as well
 
 Growing up in Natal, Brazil, Débora never would’ve guessed that Python would come to play such an important role in her life. “When I was first learning about programming in high school, I found it really difficult to comprehend. At that time I wrote code in a notebook, because I didn’t own a computer.” 
 
-Débora stumbled upon her love for programming accidentally when she was studyi…</span>
+Débora stumbled upon her love for programming accidentally when she was studying to be an English teacher. “I decided to pursue a computer networking course because I knew I didn’t want to code. There were four terms in the course and during the fourth term I had to learn programming,” she said.  “I was convinced it just wouldn’t work for me. But when I started to…</span>
                   </div>
                 </a>
               </details>
@@ -360,7 +474,10 @@ Débora stumbled upon her love for programming accidentally when she was studyi�
                     <span>👋 Emberistas! 🐹
 Global Accessibility Awareness Day, Readers&#x27; Question: Embroider status update, @use with Ember Apollo Client, and how JS frameworks solved the problem of rendering fast.
 May 20th is Global Accessibility Awareness Day 💟
-Global Accessibility Awareness Day, an awareness day focusing on digital access and inclusion for the more than one billion people with disabilities and impairments, will be celebrated on May 20, 2021. Here are some suggestions from Melanie Sumner (@MelSumner) on how you c…</span>
+Global Accessibility Awareness Day, an awareness day focusing on digital access and inclusion for the more than one billion people with disabilities and impairments, will be celebrated on May 20, 2021. Here are some suggestions from Melanie Sumner (@MelSumner) on how you can get involved in some accessibility (a11y) related open source projects!
+Help convert ember-component-patterns from Gitbook to an Ember app
+Help with a11y-automation.dev which is a project to track a11y automation
+Check out the help wanted page for issues in the ember-a11y GitHub organ…</span>
                   </div>
                 </a>
               </details>
@@ -391,7 +508,37 @@ These releases address the security issue with severity &quot;moderate&quot; det
 CVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+
 On Python 3.9.5+, URLValidator didn&#x27;t prohibit
 newlines and tabs. If you used values with newlines in HTTP response, you could
-suffer…</span>
+suffer from header injection attacks. Django itself wasn&#x27;t vulnerable because
+HttpResponse prohibits newlines in HTTP headers.
+Moreover, the URLField form field which uses URLValidator silently
+removes newlines and tabs on Python 3.9.5+, so the possibility of newlines
+entering your data only existed if you are using this validator outside of the
+form fields.
+This issue was introduced by the bpo-43882 fix.
+Affected supported versions
+Django main branch
+Django 3.2
+Django 3.1
+Django 2.2
+Resolution
+Patches to resolve the issue have been applied to Django&#x27;s main branch and to
+the 3.2, 3.1, and 2.2 release branches. The patches may be obtained from the
+following changesets:
+On the main branch
+On the 3.2 release branch
+On the 3.1 release branch
+On the 2.2 release branch
+The following releases have been issued:
+Django 3.2.2 (download Django 3.2.2 | 3.2.2 checksums)
+Django 3.1.10 (download Django 3.1.10 | 3.1.10 checksums)
+Django 2.2.22 (download Django 2.2.22 | 2.2.22 checksums)
+The PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.
+General notes regarding security reporting
+As always, we ask that potential security issues be reported via
+private email to security@djangoproject.com, and not via Django&#x27;s
+Trac instance or the django-developers list. Please see our security
+policies for further
+information.</span>
                   </div>
                 </a>
               </details>
@@ -416,7 +563,8 @@ suffer…</span>
                     <span>The fifth annual JetBrains PyCharm promotion in April netted the Django Software Foundation $45,000 this year, a slight increase over the $40,000 raised last year.
 This amount represents roughly 20% of the DSF&#x27;s overall budget, which goes directly into funding the continued development and support of Django via the Django Fellowship program and Django conferences worldwide.
 Django Software Foundation
-The Django Software Foundation is the non-profit foundation that supports the development of the Django Web …</span>
+The Django Software Foundation is the non-profit foundation that supports the development of the Django Web framework. It funds the Django Fellowship program, which currently supports two Fellows who triage tickets, review/merge patches from the community, and work on infrastructure. The introduction of this program starting in 2015 has gone a long way towards ensuring a consistent major release cycle and the fixing/blocking of severe bugs. DSF also funds development sprints, community events like DjangoCons, and related conferences and workshops globally.
+Fundraising is still ongoing and you can donate directly at djangoproject.com/fundraising.</span>
                   </div>
                 </a>
               </details>
@@ -436,7 +584,34 @@ These release addresses the security issue detailed below. We encourage all user
 CVE-2021-31542: Potential directory-traversal via uploaded files
 MultiPartParser, UploadedFile, and FieldFile allowed
 directory-traversal via uploaded files with suitably crafted file names.
-In order to mitigate this risk, stricter basename and path sanitation is no…</span>
+In order to mitigate this risk, stricter basename and path sanitation is now
+applied.
+This issue has low severity, according to the Django security policy.
+Thank you to Jasu Viding for the report.
+Affected supported versions
+Django main branch
+Django 3.2
+Django 3.1
+Django 2.2
+Resolution
+Patches to resolve the issue have been applied to Django&#x27;s main branch and to
+the 3.2, 3.1, and 2.2 release branches. The patches may be obtained from the
+following changesets:
+On the main branch
+On the 3.2 release branch
+On the 3.1 release branch
+On the 2.2 release branch
+The following releases have been issued:
+Django 3.2.1 (download Django 3.2.1 | 3.2.1 checksums)
+Django 3.1.9 (download Django 3.1.9 | 3.1.9 checksums)
+Django 2.2.21 (download Django 2.2.21 | 2.2.21 checksums)
+The PGP key ID used for these releases is Carlton Gibson: E17DF5C82B4F9D00.
+General notes regarding security reporting
+As always, we ask that potential security issues be reported via
+private email to security@djangoproject.com, and not via Django&#x27;s
+Trac instance or the django-developers list. Please see our security
+policies for further
+information.</span>
                   </div>
                 </a>
               </details>
@@ -459,7 +634,10 @@ In order to mitigate this risk, stricter basename and path sanitation is no…</
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>Microsoft helps millions of Python developers achieve more by enabling Python support across products and services like Windows, Visual Studio Code, GitHub, and Microsoft Azure.
-Microsoft has been a long-time supporter of the Python Software Foundation, starting in 2006. Today, Microsoft employs several core developers working part-time on CPython and the Python Steering Council, making significant contributions as PEP authors. We are also excited that Guido van Rossum has recently joined Microsoft as a Dis…</span>
+Microsoft has been a long-time supporter of the Python Software Foundation, starting in 2006. Today, Microsoft employs several core developers working part-time on CPython and the Python Steering Council, making significant contributions as PEP authors. We are also excited that Guido van Rossum has recently joined Microsoft as a Distinguished Engineer and is exploring performance improvements to CPython.
+Aside from helping advance the Python tooling and ecosystem, Microsoft has shown strong involvement with the Python community and has been a long-time sponsor of PyCon US, including four years at the top tier Keystone level. Microsoft’s support for the community extends to sponsorships of regional and international Python events including in emerging regions.
+This year, we are excited that Microsoft is increasing their contributions to the PSF even further as a Visionary Sponsor. Microsoft’s sponsorship funds will be used to support the PSF with a focus on working with the Packaging Working Group on improving PyPI and the packaging ecosystem. 
+You can read more about how Microsoft is supporting and contributing to the Python ecosystem on here.</span>
                   </div>
                 </a>
               </details>
@@ -474,43 +652,16 @@ Microsoft has been a long-time supporter of the Python Software Foundation, star
 Our most recent call for proposals has closed, and we are excited to announce six grants to:
 
 Spyder for the development of online learning content for the Spyder IDE,
-Nicolas McKibben to implement MRI reconstruction algorit…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-04-23">2021-04-23</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="http://pyfound.blogspot.com/">Python Software Foundation News</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Python Software Foundation Fellow Members for Q1 2021</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/-01rNDGeJjI/python-software-foundation-fellow.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>The PSF is pleased to announced its first batch of PSF Fellows in 2021! Let us welcome the new PSF Fellows for Q1! The following people continue to do amazing things for the Python community:
-Briana Augenreich 
-Georgi Ker 
-Twitter, GitHub
-Joe Banks
-Twitter, GitHub
-Leah Silen
-Leon Sandøy
-Twitter, Website, LinkedIn, GitHub, YouTube 
-Sebastiaan Zeeff
-Website, Twitter, LinkedIn
-Zac Hatfield-Dodds
-Website, GitHub
-Thank you for your continued contributions. We have added you to our Fellow roster online.
-The above…</span>
+Nicolas McKibben to implement MRI reconstruction algorithms in PyGrappa,
+The Carpentries to improve and maintain their Python curriculum,
+Qu4nt for translating the scikit-learn documentation to Spanish,
+Rosangela Mesquita for documenting common Continuous Integration practices for PyOceans, and
+Blosc for the development of a Python wrapper for their new C-Blosc2 library.
+
+We look forward to reporting back on these projects in a few months.
+
+
+Written by the PSF Scientific Working Group</span>
                   </div>
                 </a>
               </details>
@@ -521,8 +672,8 @@ The above…</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-05-23T00:54:04.447Z">2021-05-23T00:54:04.447Z</time>
-    <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.7.2</a></span>
+    <time id="build-timestamp" datetime="2021-05-24T00:51:32.331Z">2021-05-24T00:51:32.331Z</time>
+    <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.8.1</a></span>
   </footer>
   <script src="index.js"></script>
   <!-- %before-body-end.html% -->
