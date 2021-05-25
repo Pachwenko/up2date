@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-24T00:51:32.350Z</id>
+    <id>urn:2021-05-25T00:50:40.023Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-24T00:51:32.350Z</updated>
+    <updated>2021-05-25T00:50:40.023Z</updated>
     <generator>osmosfeed 1.8.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: The Python Documentation Work Group]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/F-Q2IZq3k0Q/the-2021-python-language-summit-python.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/F-Q2IZq3k0Q/the-2021-python-language-summit-python.html"/>
+        <updated>2021-05-24T04:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Mariatta Wijaya and Carol Willing gave a presentation about a new documentation work group at the 2021 Python Language Summit. Last year, Carol Willing and Ned Batchelder spoke about laying the groundwork for this project at the 2020 Python Language Summit.
+
+
+
+ 
+Why Does Python Need a Documentation Work Group?
+The mission of the Python Software Foundation is to advance the Python language and grow a diverse, international community of Python programmers so that the language can continue to flourish well into the future. However, when it comes to documentation, core developers don't necessarily reflect the larger world of Python users. If we can bring together core developers, documentarians, and educators, then we can have better documentation that serves the needs of the wider community m…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: The Challenges of Packaging Python for a Linux Distro]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/7TvPpM19_4Q/the-2021-python-language-summit_23.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/7TvPpM19_4Q/the-2021-python-language-summit_23.html"/>
+        <updated>2021-05-24T00:45:00.002Z</updated>
+        <summary type="html"><![CDATA[Matthias Klose gave a talk about the challenges of packaging Python for a Linux distribution at the 2021 Python Language Summit. He wanted to discuss:
+
+CPython sources and how they fit with Debian and Ubuntu
+Ownership of module installations 
+Architecture and platform support
+Inclusiveness and the ubiquity of Python on various platforms
+Communication issues
+ 
+What Is Python Like on Debian and Ubuntu? 
+
+He shared what Debian 11 and Ubuntu 21.04 have installed for Python. By default, there is almost nothing, so it's usually pulled in by various seeds or images. Linux distributions usually have a mature packaging system and don't ship naked CPython, unlike macOs or Windows.
+These Debian and Ubuntu versions still use Python 2 to bootstrap, but one version of Python 3 is also shipped with them.…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 2021 Python Language Summit: Lightning Talks, Round 1]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/fTXZvKxS0Zo/the-2021-python-language-summit_22.html</id>
@@ -74,7 +111,7 @@ Prettier is an opinionated code formatter. It e…]]></summary>
         <title type="html"><![CDATA[The 2021 Python Language Summit: CPython Performance Improvements at Instagram]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4Tpn4LZPws4/the-2021-python-language-summit-cpython.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4Tpn4LZPws4/the-2021-python-language-summit-cpython.html"/>
-        <updated>2021-05-20T04:02:00.000Z</updated>
+        <updated>2021-05-20T04:02:00.001Z</updated>
         <summary type="html"><![CDATA[Dino Viehland gave a presentation at the 2021 Python Language Summit about improvements to CPython's performance at Instagram. 
 
 Cinder is Instagram's internal performance-oriented production version of
@@ -212,7 +249,7 @@ With the 2021 Python Language Summit off to a good start, we took a group photo 
         <title type="html"><![CDATA[The 2021 Python Language Summit]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html"/>
-        <updated>2021-05-13T20:27:00.010Z</updated>
+        <updated>2021-05-13T20:27:00.012Z</updated>
         <summary type="html"><![CDATA[Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.
 
 
