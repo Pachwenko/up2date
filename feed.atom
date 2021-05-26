@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-25T00:50:40.023Z</id>
+    <id>urn:2021-05-26T01:00:34.991Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-25T00:50:40.023Z</updated>
+    <updated>2021-05-26T01:00:34.991Z</updated>
     <generator>osmosfeed 1.8.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -162,7 +162,7 @@ One of the current issues with embedding Python is that it doesn't explicitly re
         <title type="html"><![CDATA[The 2021 Python Language Summit: PEP 654 — Exception Groups and except*]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YfwxVhCg4nM/the-2021-python-language-summit-pep-654.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YfwxVhCg4nM/the-2021-python-language-summit-pep-654.html"/>
-        <updated>2021-05-16T03:14:00.002Z</updated>
+        <updated>2021-05-16T03:14:00.003Z</updated>
         <summary type="html"><![CDATA[PEP 654 was authored by Irit Katriel, Yury Selivanov, and Guido van Rossum. This PEP is currently at the draft stage. At the 2021 Python Language Summit, the authors shared what it is, why we need it, and which ideas they rejected.
 
 
