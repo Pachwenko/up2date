@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-26T01:00:34.991Z</id>
+    <id>urn:2021-05-27T01:04:59.836Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-26T01:00:34.991Z</updated>
-    <generator>osmosfeed 1.8.1</generator>
+    <updated>2021-05-27T01:04:59.836Z</updated>
+    <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Django IRC Channels migration to Libera.Chat]]></title>
+        <id>https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/</id>
+        <link href="https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/"/>
+        <updated>2021-05-26T17:45:15.000Z</updated>
+        <summary type="html"><![CDATA[At approximately 3 am UTC on May 26, 2021, the operators of the Freenode IRC network assumed control of the #django* channels on that network. This means that representatives of the Django community no longer retain the ability to enforce Django's Code of Conduct on the Freenode IRC network. Additionally, we do not have the ability to set a topic on Django-related IRC channels on this network.
+
+
+Please join us in #django and #django-dev on Libera.Chat for discussion of the usage and development of Django, respectively. Additionally, you may refer to our documentation on Contributing to Django for some of the other options available to you for discussion of the usage and development of Django.]]></summary>
+        <author>
+            <name>Django Software Foundation</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 2021 Python Language Summit: The Python Documentation Work Group]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/F-Q2IZq3k0Q/the-2021-python-language-summit-python.html</id>
