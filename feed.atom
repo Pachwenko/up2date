@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-29T01:26:41.326Z</id>
+    <id>urn:2021-05-30T01:37:43.912Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-29T01:26:41.326Z</updated>
+    <updated>2021-05-30T01:37:43.912Z</updated>
     <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -485,43 +485,6 @@ policies for further
 information.]]></summary>
         <author>
             <name>Carlton Gibson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcoming Microsoft as a Visionary Sponsor]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/GYSOS6MM_d0/welcoming-microsoft-as-visionary-sponsor.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/GYSOS6MM_d0/welcoming-microsoft-as-visionary-sponsor.html"/>
-        <updated>2021-04-29T16:20:00.007Z</updated>
-        <summary type="html"><![CDATA[Microsoft helps millions of Python developers achieve more by enabling Python support across products and services like Windows, Visual Studio Code, GitHub, and Microsoft Azure.
-Microsoft has been a long-time supporter of the Python Software Foundation, starting in 2006. Today, Microsoft employs several core developers working part-time on CPython and the Python Steering Council, making significant contributions as PEP authors. We are also excited that Guido van Rossum has recently joined Microsoft as a Distinguished Engineer and is exploring performance improvements to CPython.
-Aside from helping advance the Python tooling and ecosystem, Microsoft has shown strong involvement with the Python community and has been a long-time sponsor of PyCon US, including four years at the top tier Keystone level. Microsoft’s support for the community extends to sponsorships of regional and international Python events including in emerging regions.
-This year, we are excited that Microsoft is increasing their contributions to the PSF even further as a Visionary Sponsor. Microsoft’s sponsorship funds will be used to support the PSF with a focus on working with the Packaging Working Group on improving PyPI and the packaging ecosystem. 
-You can read more about how Microsoft is supporting and contributing to the Python ecosystem on here.]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing six scientific Python grants]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/zGQQz8trs7c/announcing-six-scientific-python-grants.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/zGQQz8trs7c/announcing-six-scientific-python-grants.html"/>
-        <updated>2021-04-29T16:00:00.002Z</updated>
-        <summary type="html"><![CDATA[The Scientific Python Working Group considers funding proposals that advance the scientific use of Python. In the past these have most often been workshops and conferences, but we also fund project improvements and outreach. Recently, we broadened our scope to include developer sprints.
-Our most recent call for proposals has closed, and we are excited to announce six grants to:
-
-Spyder for the development of online learning content for the Spyder IDE,
-Nicolas McKibben to implement MRI reconstruction algorithms in PyGrappa,
-The Carpentries to improve and maintain their Python curriculum,
-Qu4nt for translating the scikit-learn documentation to Spanish,
-Rosangela Mesquita for documenting common Continuous Integration practices for PyOceans, and
-Blosc for the development of a Python wrapper for their new C-Blosc2 library.
-
-We look forward to reporting back on these projects in a few months.
-
-
-Written by the PSF Scientific Working Group]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
         </author>
     </entry>
 </feed>
