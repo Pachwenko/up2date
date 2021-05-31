@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-30T01:37:43.912Z</id>
+    <id>urn:2021-05-31T01:48:10.689Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-30T01:37:43.912Z</updated>
+    <updated>2021-05-31T01:48:10.689Z</updated>
     <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: What Is the stdlib?]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/z8bYv7-CvBw/the-2021-python-language-summit-what-is.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/z8bYv7-CvBw/the-2021-python-language-summit-what-is.html"/>
+        <updated>2021-05-30T03:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Brett Cannon gave a presentation at the 2021 Python Language Summit about the standard library in order to start a conversation about whether it's time to write a PEP that more clearly defines it.
+
+
+ 
+What Is the stdlib? 
+
+He succinctly described the stdlib as "a collection of modules that ship with CPython (usually)." This was the most accurate definition he could give, considering how big it is, how varied its contents are, and how long it has been around.
+He didn't offer an answer to the question about whether or not there should be a new informational PEP to define clear goals for the stblib, but he wanted core developers to engage with the question. There are a variety of opinions on the stdlib, but it could be beneficial to come to some kind of agreement about:
+
+What it should be
+How…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Django IRC Channels migration to Libera.Chat]]></title>
         <id>https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/</id>
@@ -262,7 +282,7 @@ With the 2021 Python Language Summit off to a good start, we took a group photo 
         <title type="html"><![CDATA[The 2021 Python Language Summit]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html"/>
-        <updated>2021-05-13T20:27:00.012Z</updated>
+        <updated>2021-05-13T20:27:00.013Z</updated>
         <summary type="html"><![CDATA[Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.
 
 
