@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-31T01:48:10.689Z</id>
+    <id>urn:2021-06-01T02:07:30.728Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-31T01:48:10.689Z</updated>
+    <updated>2021-06-01T02:07:30.728Z</updated>
     <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -58,7 +58,7 @@ The mission of the Python Software Foundation is to advance the Python language 
         <title type="html"><![CDATA[The 2021 Python Language Summit: The Challenges of Packaging Python for a Linux Distro]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/7TvPpM19_4Q/the-2021-python-language-summit_23.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/7TvPpM19_4Q/the-2021-python-language-summit_23.html"/>
-        <updated>2021-05-24T00:45:00.002Z</updated>
+        <updated>2021-05-24T00:45:00.003Z</updated>
         <summary type="html"><![CDATA[Matthias Klose gave a talk about the challenges of packaging Python for a Linux distribution at the 2021 Python Language Summit. He wanted to discuss:
 
 CPython sources and how they fit with Debian and Ubuntu
@@ -70,7 +70,7 @@ Communication issues
 What Is Python Like on Debian and Ubuntu? 
 
 He shared what Debian 11 and Ubuntu 21.04 have installed for Python. By default, there is almost nothing, so it's usually pulled in by various seeds or images. Linux distributions usually have a mature packaging system and don't ship naked CPython, unlike macOs or Windows.
-These Debian and Ubuntu versions still use Python 2 to bootstrap, but one version of Python 3 is also shipped with them.…]]></summary>
+These Debian and Ubuntu versions still use Python 2 to bootstrap PyPI, but one version of Python 3 is also shipped with …]]></summary>
         <author>
             <name>Python Software Foundation News</name>
         </author>
