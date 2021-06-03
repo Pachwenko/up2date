@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-02T02:14:33.275Z</id>
+    <id>urn:2021-06-03T01:52:17.103Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-02T02:14:33.275Z</updated>
+    <updated>2021-06-03T01:52:17.103Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Django security releases issued: 3.2.4, 3.1.12, and 2.2.24]]></title>
+        <id>https://www.djangoproject.com/weblog/2021/jun/02/security-releases/</id>
+        <link href="https://www.djangoproject.com/weblog/2021/jun/02/security-releases/"/>
+        <updated>2021-06-02T09:07:49.000Z</updated>
+        <summary type="html"><![CDATA[In accordance with our security release policy, the Django team
+is issuing
+Django 3.2.4,
+Django 3.1.12, and
+Django 2.2.24.
+These release addresses the security issue detailed below. We encourage all
+users of Django to upgrade as soon as possible.
+CVE-2021-33203: Potential directory traversal via admindocs
+Staff members could use the admindocs
+TemplateDetailView view to check the existence of arbitrary files.
+Additionally, if (and only if) the default admindocs templates have been
+customized by the developers to also expose the file contents, then not only
+the existence but also the file contents would have been exposed.
+As a mitigation, path sanitation is now applied and only files within the
+template root directories can be loaded.
+This issue has low severity, according to the Django secu…]]></summary>
+        <author>
+            <name>Carlton Gibson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 2021 Python Language Summit: What Is the stdlib?]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/z8bYv7-CvBw/the-2021-python-language-summit-what-is.html</id>
@@ -459,52 +484,6 @@ The Django Software Foundation is the non-profit foundation that supports the de
 Fundraising is still ongoing and you can donate directly at djangoproject.com/fundraising.]]></summary>
         <author>
             <name>William Vincent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Django security releases issued: 3.2.1, 3.1.9, and 2.2.21]]></title>
-        <id>https://www.djangoproject.com/weblog/2021/may/04/security-releases/</id>
-        <link href="https://www.djangoproject.com/weblog/2021/may/04/security-releases/"/>
-        <updated>2021-05-04T08:51:35.000Z</updated>
-        <summary type="html"><![CDATA[In accordance with our security release policy, the Django team
-is issuing
-Django 3.2.1,
-Django 3.1.9, and
-Django 2.2.21.
-These release addresses the security issue detailed below. We encourage all users of Django to upgrade as soon as possible.
-CVE-2021-31542: Potential directory-traversal via uploaded files
-MultiPartParser, UploadedFile, and FieldFile allowed
-directory-traversal via uploaded files with suitably crafted file names.
-In order to mitigate this risk, stricter basename and path sanitation is now
-applied.
-This issue has low severity, according to the Django security policy.
-Thank you to Jasu Viding for the report.
-Affected supported versions
-Django main branch
-Django 3.2
-Django 3.1
-Django 2.2
-Resolution
-Patches to resolve the issue have been applied to Django's main branch and to
-the 3.2, 3.1, and 2.2 release branches. The patches may be obtained from the
-following changesets:
-On the main branch
-On the 3.2 release branch
-On the 3.1 release branch
-On the 2.2 release branch
-The following releases have been issued:
-Django 3.2.1 (download Django 3.2.1 | 3.2.1 checksums)
-Django 3.1.9 (download Django 3.1.9 | 3.1.9 checksums)
-Django 2.2.21 (download Django 2.2.21 | 2.2.21 checksums)
-The PGP key ID used for these releases is Carlton Gibson: E17DF5C82B4F9D00.
-General notes regarding security reporting
-As always, we ask that potential security issues be reported via
-private email to security@djangoproject.com, and not via Django's
-Trac instance or the django-developers list. Please see our security
-policies for further
-information.]]></summary>
-        <author>
-            <name>Carlton Gibson</name>
         </author>
     </entry>
 </feed>
