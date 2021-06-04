@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-03T01:52:17.103Z</id>
+    <id>urn:2021-06-04T01:35:42.995Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-03T01:52:17.103Z</updated>
+    <updated>2021-06-04T01:35:42.995Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -470,20 +470,6 @@ policies for further
 information.]]></summary>
         <author>
             <name>Mariusz Felisiak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PyCharm &amp; DSF Campaign 2021 Results]]></title>
-        <id>https://www.djangoproject.com/weblog/2021/may/04/pycharm-dsf-campaign-2021-results/</id>
-        <link href="https://www.djangoproject.com/weblog/2021/may/04/pycharm-dsf-campaign-2021-results/"/>
-        <updated>2021-05-04T16:25:25.000Z</updated>
-        <summary type="html"><![CDATA[The fifth annual JetBrains PyCharm promotion in April netted the Django Software Foundation $45,000 this year, a slight increase over the $40,000 raised last year.
-This amount represents roughly 20% of the DSF's overall budget, which goes directly into funding the continued development and support of Django via the Django Fellowship program and Django conferences worldwide.
-Django Software Foundation
-The Django Software Foundation is the non-profit foundation that supports the development of the Django Web framework. It funds the Django Fellowship program, which currently supports two Fellows who triage tickets, review/merge patches from the community, and work on infrastructure. The introduction of this program starting in 2015 has gone a long way towards ensuring a consistent major release cycle and the fixing/blocking of severe bugs. DSF also funds development sprints, community events like DjangoCons, and related conferences and workshops globally.
-Fundraising is still ongoing and you can donate directly at djangoproject.com/fundraising.]]></summary>
-        <author>
-            <name>William Vincent</name>
         </author>
     </entry>
 </feed>
