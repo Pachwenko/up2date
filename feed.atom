@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-04T01:35:42.995Z</id>
+    <id>urn:2021-06-05T01:12:08.135Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-04T01:35:42.995Z</updated>
+    <updated>2021-06-05T01:12:08.135Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -421,55 +421,6 @@ Help with a11y-automation.dev which is a project to track a11y automation
 Check out the help wanted page for issues in the ember-a11y GitHub organ…]]></summary>
         <author>
             <name>Ember.js Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Django security releases issued: 3.2.2, 3.1.10, and 2.2.22]]></title>
-        <id>https://www.djangoproject.com/weblog/2021/may/06/security-releases/</id>
-        <link href="https://www.djangoproject.com/weblog/2021/may/06/security-releases/"/>
-        <updated>2021-05-06T06:17:54.000Z</updated>
-        <summary type="html"><![CDATA[In accordance with our security release policy, the Django team
-is issuing
-Django 3.2.2,
-Django 3.1.10, and
-Django 2.2.22.
-These releases address the security issue with severity "moderate" detailed below. We encourage all users of Django to upgrade as soon as possible.
-CVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+
-On Python 3.9.5+, URLValidator didn't prohibit
-newlines and tabs. If you used values with newlines in HTTP response, you could
-suffer from header injection attacks. Django itself wasn't vulnerable because
-HttpResponse prohibits newlines in HTTP headers.
-Moreover, the URLField form field which uses URLValidator silently
-removes newlines and tabs on Python 3.9.5+, so the possibility of newlines
-entering your data only existed if you are using this validator outside of the
-form fields.
-This issue was introduced by the bpo-43882 fix.
-Affected supported versions
-Django main branch
-Django 3.2
-Django 3.1
-Django 2.2
-Resolution
-Patches to resolve the issue have been applied to Django's main branch and to
-the 3.2, 3.1, and 2.2 release branches. The patches may be obtained from the
-following changesets:
-On the main branch
-On the 3.2 release branch
-On the 3.1 release branch
-On the 2.2 release branch
-The following releases have been issued:
-Django 3.2.2 (download Django 3.2.2 | 3.2.2 checksums)
-Django 3.1.10 (download Django 3.1.10 | 3.1.10 checksums)
-Django 2.2.22 (download Django 2.2.22 | 2.2.22 checksums)
-The PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.
-General notes regarding security reporting
-As always, we ask that potential security issues be reported via
-private email to security@djangoproject.com, and not via Django's
-Trac instance or the django-developers list. Please see our security
-policies for further
-information.]]></summary>
-        <author>
-            <name>Mariusz Felisiak</name>
         </author>
     </entry>
 </feed>

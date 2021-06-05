@@ -126,7 +126,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.4,\nDjango 3.1.12, and\nDjango 2.2.24.\nThese release addresses the security issue detailed below. We encourage all\nusers of Django to upgrade as soon as possible.\nCVE-2021-33203: Potential directory traversal via admindocs\nStaff members could use the admindocs\nTemplateDetailView view to check the existence of arbitrary files.\nAdditionally, if (and only if) the default admindocs templates have been\ncustomized by the developers to also expose the file contents, then not only\nthe existence but also the file contents would have been exposed.\nAs a mitigation, path sanitation is now applied and only files within the\ntemplate root directories can be loaded.\nThis issue has low severity, according to the Django secu…",
           "link": "https://www.djangoproject.com/weblog/2021/jun/02/security-releases/",
           "publishedOn": "2021-06-02T09:07:49.000Z",
-          "wordCount": 920,
+          "wordCount": 919,
           "title": "Django security releases issued: 3.2.4, 3.1.12, and 2.2.24"
         },
         {
@@ -144,7 +144,7 @@
           "description": "The Technical Board for the Django 4.x release cycle will be\n\r\n\r\n\r\nAndrew Godwin\n\r\nFlorian Apolloner\n\r\nSimon Charette\n\r\nAdam Johnson\n\r\nThomas Forbes\n\r\n\r\n\r\nCongratulations to the new board and a special thank you to departing Technical Board members James Bennett and Markus Holtermann.\n\r\n\r\nThank you to everyone who participated in the nominations and voting.\n\r\n\r\nVoting breakdown:\n\r\n\r\n49 Eligible voters opted-in to voting\n\r\n46 Eligible voters cast votes\n\r\n \r\n\r\nCondorcet pairwise evaluation results\n\r\n\r\nAndrew Godwin  (Condorcet winner: wins contests with all other choices)\n\r\nFlorian Apolloner  loses to Andrew Godwin by 25–8\n\r\n Simon Charette  loses to Andrew Godwin by 28–7, loses to Florian Apolloner by 23–9\n\r\nAdam Johnson  loses to Andrew Godwin by 27–9, loses to Simon Charette by 19–18\n\r\nThomas Forbes  loses to Andrew Godwin by 30–4, loses to Adam Johnson by 25–5",
           "link": "https://www.djangoproject.com/weblog/2021/may/14/django-4x-technical-board-election-results/",
           "publishedOn": "2021-05-14T13:19:49.000Z",
-          "wordCount": 676,
+          "wordCount": 678,
           "title": "Django 4.x Technical Board Election Results"
         },
         {
@@ -155,15 +155,6 @@
           "publishedOn": "2021-05-13T07:30:54.000Z",
           "wordCount": 592,
           "title": "Django bugfix releases issued: 3.2.3, 3.1.11, and 2.2.23"
-        },
-        {
-          "id": "https://www.djangoproject.com/weblog/2021/may/06/security-releases/",
-          "author": "Mariusz Felisiak",
-          "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.2,\nDjango 3.1.10, and\nDjango 2.2.22.\nThese releases address the security issue with severity \"moderate\" detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-32052: Header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+\nOn Python 3.9.5+, URLValidator didn't prohibit\nnewlines and tabs. If you used values with newlines in HTTP response, you could\nsuffer from header injection attacks. Django itself wasn't vulnerable because\nHttpResponse prohibits newlines in HTTP headers.\nMoreover, the URLField form field which uses URLValidator silently\nremoves newlines and tabs on Python 3.9.5+, so the possibility of newlines\nentering your data only existed if you are using this validator outside of the\nform fields.\nThis issue was introduced by the bpo-43882 fix.\nAffected supported versions\nDjango main branch\nDjango 3.2\nDjango 3.1\nDjango 2.2\nResolution\nPatches to resolve the issue have been applied to Django's main branch and to\nthe 3.2, 3.1, and 2.2 release branches. The patches may be obtained from the\nfollowing changesets:\nOn the main branch\nOn the 3.2 release branch\nOn the 3.1 release branch\nOn the 2.2 release branch\nThe following releases have been issued:\nDjango 3.2.2 (download Django 3.2.2 | 3.2.2 checksums)\nDjango 3.1.10 (download Django 3.1.10 | 3.1.10 checksums)\nDjango 2.2.22 (download Django 2.2.22 | 2.2.22 checksums)\nThe PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.\nGeneral notes regarding security reporting\nAs always, we ask that potential security issues be reported via\nprivate email to security@djangoproject.com, and not via Django's\nTrac instance or the django-developers list. Please see our security\npolicies for further\ninformation.",
-          "link": "https://www.djangoproject.com/weblog/2021/may/06/security-releases/",
-          "publishedOn": "2021-05-06T06:17:54.000Z",
-          "wordCount": 829,
-          "title": "Django security releases issued: 3.2.2, 3.1.10, and 2.2.22"
         }
       ]
     },
