@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-05T01:12:08.135Z</id>
+    <id>urn:2021-06-06T01:05:50.588Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-05T01:12:08.135Z</updated>
+    <updated>2021-06-06T01:05:50.588Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: What Should I Work on as a Core Dev?]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/ntiuibWUuVc/the-2021-python-language-summit-what.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/ntiuibWUuVc/the-2021-python-language-summit-what.html"/>
+        <updated>2021-06-05T20:38:00.000Z</updated>
+        <summary type="html"><![CDATA[At the 2021 Python Language Summit, Eric Snow gave a presentation about how core developers can receive guidance to help them work on improvements to the language that will bring the most benefit to the Python community.
+
+
+
+
+What Does the Community Need? 
+When Eric Snow first got involved in core development over a decade ago, he liked that there was so much to learn. But he found that the organization didn't offer a lot of direction in terms of guiding volunteers to the kind of work that would have the biggest impact. 
+Over the years, he's thought about how he and other contributors decide what to work on and why. What directs the efforts of contributors and core developers? Contributors make decisions based on their availability, expertise, and interests. Core developers need to act as s…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Ember Times - Issue No. 181]]></title>
+        <id>https://blog.emberjs.com/the-ember-times-issue-181</id>
+        <link href="https://blog.emberjs.com/the-ember-times-issue-181"/>
+        <updated>2021-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Emberistas! 🐹
+EmberFest, remodeling an Ember app, Ember CLI history, ember-auto-import, web bundling, ember-concurrency release, Ember Data roundup, rwjblue podcast, and keeping a clean git history.
+EmberFest 2021 is happening! 🏛️
+Mark your calendars for September 30th – October 1st of 2021 – EmberFest will be back as a hybrid on-site/virtual event! EmberFest is the European Community Ember Conference. The location will be a secret until ticket sales are open so stay tuned.
+The EmberFest team is confident that this year’s conference can happen in person. At the same time, they realize that some people can’t or might not want to travel yet, so for the first time, EmberFest is going hybrid: there will be both on-site and remote tickets for a livestream available. Early bird tickets will…]]></summary>
+        <author>
+            <name>Ember.js Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Django security releases issued: 3.2.4, 3.1.12, and 2.2.24]]></title>
         <id>https://www.djangoproject.com/weblog/2021/jun/02/security-releases/</id>
@@ -307,7 +338,7 @@ With the 2021 Python Language Summit off to a good start, we took a group photo 
         <title type="html"><![CDATA[The 2021 Python Language Summit]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html"/>
-        <updated>2021-05-13T20:27:00.013Z</updated>
+        <updated>2021-05-13T20:27:00.014Z</updated>
         <summary type="html"><![CDATA[Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.
 
 
@@ -405,22 +436,6 @@ Growing up in Natal, Brazil, Débora never would’ve guessed that Python would 
 Débora stumbled upon her love for programming accidentally when she was studying to be an English teacher. “I decided to pursue a computer networking course because I knew I didn’t want to code. There were four terms in the course and during the fourth term I had to learn programming,” she said.  “I was convinced it just wouldn’t work for me. But when I started to…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ember Times - Issue No. 179]]></title>
-        <id>https://blog.emberjs.com/the-ember-times-issue-179</id>
-        <link href="https://blog.emberjs.com/the-ember-times-issue-179"/>
-        <updated>2021-05-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[👋 Emberistas! 🐹
-Global Accessibility Awareness Day, Readers' Question: Embroider status update, @use with Ember Apollo Client, and how JS frameworks solved the problem of rendering fast.
-May 20th is Global Accessibility Awareness Day 💟
-Global Accessibility Awareness Day, an awareness day focusing on digital access and inclusion for the more than one billion people with disabilities and impairments, will be celebrated on May 20, 2021. Here are some suggestions from Melanie Sumner (@MelSumner) on how you can get involved in some accessibility (a11y) related open source projects!
-Help convert ember-component-patterns from Gitbook to an Ember app
-Help with a11y-automation.dev which is a project to track a11y automation
-Check out the help wanted page for issues in the ember-a11y GitHub organ…]]></summary>
-        <author>
-            <name>Ember.js Blog</name>
         </author>
     </entry>
 </feed>
