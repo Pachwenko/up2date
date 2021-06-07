@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-06T01:05:50.588Z</id>
+    <id>urn:2021-06-07T01:06:49.120Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-06T01:05:50.588Z</updated>
+    <updated>2021-06-07T01:06:49.120Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The 2021 Python Language Summit: Fuzzing and Testing Python With Properties]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html"/>
+        <updated>2021-06-06T16:37:00.000Z</updated>
+        <summary type="html"><![CDATA[At the 2021 Python Language Summit, Zac Hatfield-Dodds gave a presentation about fuzzing and testing with Python properties. This presentation tied in with the one he gave at the 2020 Python Language Summit.
+
+
+
+ 
+
+What Is Testing?
+For the purposes of this talk, he defined testing as the art and science of running code and then checking if it did what it was supposed to do. He added that, although assertions, type checkers, linters, and code review are good, they are not testing.
+There are two general reasons why we might have tests:
+
+For correctness:
+
+The goal is to validate software and determine that they are no bugs.
+Nondeterminism is acceptable.
+Finding any fault is a success. 
+
+For software engineering (programming, over time, in teams):
+
+The goal is to validate changes or detect regr…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 2021 Python Language Summit: What Should I Work on as a Core Dev?]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/ntiuibWUuVc/the-2021-python-language-summit-what.html</id>
@@ -338,7 +366,7 @@ With the 2021 Python Language Summit off to a good start, we took a group photo 
         <title type="html"><![CDATA[The 2021 Python Language Summit]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html"/>
-        <updated>2021-05-13T20:27:00.014Z</updated>
+        <updated>2021-05-13T20:27:00.015Z</updated>
         <summary type="html"><![CDATA[Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.
 
 
