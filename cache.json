@@ -10,8 +10,8 @@
           "author": null,
           "description": "At the 2021 Python Language Summit, Zac Hatfield-Dodds gave a presentation about fuzzing and testing with Python properties. This presentation tied in with the one he gave at the 2020 Python Language Summit.\n\n\n\n \n\nWhat Is Testing?\nFor the purposes of this talk, he defined testing as the art and science of running code and then checking if it did what it was supposed to do. He added that, although assertions, type checkers, linters, and code review are good, they are not testing.\nThere are two general reasons why we might have tests:\n\nFor correctness:\n\nThe goal is to validate software and determine that they are no bugs.\nNondeterminism is acceptable.\nFinding any fault is a success. \n\nFor software engineering (programming, over time, in teams):\n\nThe goal is to validate changes or detect regr…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html",
-          "publishedOn": "2021-06-06T16:37:00.000Z",
-          "wordCount": 1485,
+          "publishedOn": "2021-06-06T16:37:00.002Z",
+          "wordCount": 1515,
           "title": "The 2021 Python Language Summit: Fuzzing and Testing Python With Properties"
         },
         {
@@ -144,7 +144,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.4,\nDjango 3.1.12, and\nDjango 2.2.24.\nThese release addresses the security issue detailed below. We encourage all\nusers of Django to upgrade as soon as possible.\nCVE-2021-33203: Potential directory traversal via admindocs\nStaff members could use the admindocs\nTemplateDetailView view to check the existence of arbitrary files.\nAdditionally, if (and only if) the default admindocs templates have been\ncustomized by the developers to also expose the file contents, then not only\nthe existence but also the file contents would have been exposed.\nAs a mitigation, path sanitation is now applied and only files within the\ntemplate root directories can be loaded.\nThis issue has low severity, according to the Django secu…",
           "link": "https://www.djangoproject.com/weblog/2021/jun/02/security-releases/",
           "publishedOn": "2021-06-02T09:07:49.000Z",
-          "wordCount": 922,
+          "wordCount": 921,
           "title": "Django security releases issued: 3.2.4, 3.1.12, and 2.2.24"
         },
         {
@@ -153,7 +153,7 @@
           "description": "At approximately 3 am UTC on May 26, 2021, the operators of the Freenode IRC network assumed control of the #django* channels on that network. This means that representatives of the Django community no longer retain the ability to enforce Django's Code of Conduct on the Freenode IRC network. Additionally, we do not have the ability to set a topic on Django-related IRC channels on this network.\n\r\n\r\nPlease join us in #django and #django-dev on Libera.Chat for discussion of the usage and development of Django, respectively. Additionally, you may refer to our documentation on Contributing to Django for some of the other options available to you for discussion of the usage and development of Django.",
           "link": "https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/",
           "publishedOn": "2021-05-26T17:45:15.000Z",
-          "wordCount": 664,
+          "wordCount": 663,
           "title": "Django IRC Channels migration to Libera.Chat"
         },
         {
@@ -162,7 +162,7 @@
           "description": "The Technical Board for the Django 4.x release cycle will be\n\r\n\r\n\r\nAndrew Godwin\n\r\nFlorian Apolloner\n\r\nSimon Charette\n\r\nAdam Johnson\n\r\nThomas Forbes\n\r\n\r\n\r\nCongratulations to the new board and a special thank you to departing Technical Board members James Bennett and Markus Holtermann.\n\r\n\r\nThank you to everyone who participated in the nominations and voting.\n\r\n\r\nVoting breakdown:\n\r\n\r\n49 Eligible voters opted-in to voting\n\r\n46 Eligible voters cast votes\n\r\n \r\n\r\nCondorcet pairwise evaluation results\n\r\n\r\nAndrew Godwin  (Condorcet winner: wins contests with all other choices)\n\r\nFlorian Apolloner  loses to Andrew Godwin by 25–8\n\r\n Simon Charette  loses to Andrew Godwin by 28–7, loses to Florian Apolloner by 23–9\n\r\nAdam Johnson  loses to Andrew Godwin by 27–9, loses to Simon Charette by 19–18\n\r\nThomas Forbes  loses to Andrew Godwin by 30–4, loses to Adam Johnson by 25–5",
           "link": "https://www.djangoproject.com/weblog/2021/may/14/django-4x-technical-board-election-results/",
           "publishedOn": "2021-05-14T13:19:49.000Z",
-          "wordCount": 677,
+          "wordCount": 676,
           "title": "Django 4.x Technical Board Election Results"
         },
         {
