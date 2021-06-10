@@ -6,12 +6,21 @@
       "siteUrl": "http://pyfound.blogspot.com/",
       "articles": [
         {
+          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YhpQywGg83E/the-2021-python-language-summit.html",
+          "author": null,
+          "description": "The second day of the 2021 Python Language Summit finished with a series of lightning talks from Ronny Pfannschmidt, Pablo Galindo, Batuhan Taskaya, Luciano Ramalho, Jason R. Coombs, Mark Shannon, and Tobias Kohn.\n\n\n\nAnnotated Assertions: Debugging With Joy\nRonny Pfannschmidt spoke about annotated assertions. He is a pytest maintainer and loves approachable debugging.\nHe compared assertions in unittest with assertions in pytest. He remarked that mistakes have been made in the past and are still being made today. Before pytest 2.1, pytest would reinterpret assertions, which was bad for side effects. Today, pytest deals with side effects by handling all of the variables, collecting them, and showing them to you. \nHere's what he would like to see in Python:\n\n\n\nHere's what he'd like to do:\n\nCr…",
+          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YhpQywGg83E/the-2021-python-language-summit.html",
+          "publishedOn": "2021-06-09T16:13:00.000Z",
+          "wordCount": 1682,
+          "title": "The 2021 Python Language Summit: Lightning Talks, Round 2"
+        },
+        {
           "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html",
           "author": null,
           "description": "At the 2021 Python Language Summit, Zac Hatfield-Dodds gave a presentation about fuzzing and testing with Python properties. This presentation tied in with the one he gave at the 2020 Python Language Summit.\n\n\n\n \n\nWhat Is Testing?\nFor the purposes of this talk, he defined testing as the art and science of running code and then checking if it did what it was supposed to do. He added that, although assertions, type checkers, linters, and code review are good, they are not testing.\nThere are two general reasons why we might have tests:\n\nFor correctness:\n\nThe goal is to validate software and determine that they are no bugs.\nNondeterminism is acceptable.\nFinding any fault is a success. \n\nFor software engineering (programming, over time, in teams):\n\nThe goal is to validate changes or detect regr…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html",
           "publishedOn": "2021-06-06T16:37:00.002Z",
-          "wordCount": 1515,
+          "wordCount": 1525,
           "title": "The 2021 Python Language Summit: Fuzzing and Testing Python With Properties"
         },
         {
@@ -19,8 +28,8 @@
           "author": null,
           "description": "At the 2021 Python Language Summit, Eric Snow gave a presentation about how core developers can receive guidance to help them work on improvements to the language that will bring the most benefit to the Python community.\n\n\n\n\nWhat Does the Community Need? \nWhen Eric Snow first got involved in core development over a decade ago, he liked that there was so much to learn. But he found that the organization didn't offer a lot of direction in terms of guiding volunteers to the kind of work that would have the biggest impact. \nOver the years, he's thought about how he and other contributors decide what to work on and why. What directs the efforts of contributors and core developers? Contributors make decisions based on their availability, expertise, and interests. Core developers need to act as s…",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/ntiuibWUuVc/the-2021-python-language-summit-what.html",
-          "publishedOn": "2021-06-05T20:38:00.000Z",
-          "wordCount": 1175,
+          "publishedOn": "2021-06-05T20:38:00.001Z",
+          "wordCount": 1183,
           "title": "The 2021 Python Language Summit: What Should I Work on as a Core Dev?"
         },
         {
@@ -118,7 +127,7 @@
           "author": null,
           "description": "Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.\n\n\nThe Python Language Summit features short presentations followed by group discussions. The topics can relate to the language itself, the standard library, \r\nthe development process, documentation, packaging, and more! In 2021, the summit was held over two days by videoconference and was led by Mariatta Wijaya and Łukasz \r\nLanga.\n\nIf you weren't able to attend the summit, then you can still stay up to date with what's happening in the world of Python by reading blog posts about all of the talks that were given. Over the next few weeks, you'll be able to \r\ndive into all of the news from the summit so you can join in \r\non the big conversations that are happening in the Python community.\n\n\nDay 1 \n\n \nWelcome, Introductions, Guidelines \nŁukasz \r\nLanga \n\n \nPEP 654 — Exception Groups and except* \nIrit Katriel, Yury Selivanov, and Guido van Rossum \n\n \nProgress on Running Multiple Python Interpreters in Parallel in the Same Process \nVictor Stinner and Dong-hee Na\n \nCPython Improvements at Instagram \nDino Viehland\n \nMaking CPython Faster \nGuido van Rossum\n \nHPy — Present and Future \nAntonio Cuni\n \nLightning Talks, Round 1 \nPetr Viktorin, Lorena Mesa, Scott Shawcroft, and Jeff Allen\n \n\n\nDay 2 \n\n\n \n\nThe Challenges of Packaging Python for a Linux Distro \nMatthias Klose\n \nThe Python Documentation Work Group \nMariatta Wijaya and Carol Willing\n \nWhat Is the stdlib? \nBrett Cannon\n \nWhat Should I Work on as a Core Dev? \nEric Snow\n \nFuzzing and Testing Python With Properties \nZac Hatfield-Dodds\n\n \nLightning Talks, Round 2 \nRonny Pfannschmidt, Pablo Galindo, Batuhan Taskaya, Luciano Ramalho, Jason R. Coombs, Mark Shannon, and Tobias Kohn \n \n\nWe hope you enjoy diving into what went on at the summit, and we're looking forward to seeing how the Python community continues these discussions.",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html",
-          "publishedOn": "2021-05-13T20:27:00.015Z",
+          "publishedOn": "2021-05-13T20:27:00.016Z",
           "wordCount": 1060,
           "title": "The 2021 Python Language Summit"
         },
@@ -153,7 +162,7 @@
           "description": "At approximately 3 am UTC on May 26, 2021, the operators of the Freenode IRC network assumed control of the #django* channels on that network. This means that representatives of the Django community no longer retain the ability to enforce Django's Code of Conduct on the Freenode IRC network. Additionally, we do not have the ability to set a topic on Django-related IRC channels on this network.\n\r\n\r\nPlease join us in #django and #django-dev on Libera.Chat for discussion of the usage and development of Django, respectively. Additionally, you may refer to our documentation on Contributing to Django for some of the other options available to you for discussion of the usage and development of Django.",
           "link": "https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/",
           "publishedOn": "2021-05-26T17:45:15.000Z",
-          "wordCount": 664,
+          "wordCount": 663,
           "title": "Django IRC Channels migration to Libera.Chat"
         },
         {
@@ -162,7 +171,7 @@
           "description": "The Technical Board for the Django 4.x release cycle will be\n\r\n\r\n\r\nAndrew Godwin\n\r\nFlorian Apolloner\n\r\nSimon Charette\n\r\nAdam Johnson\n\r\nThomas Forbes\n\r\n\r\n\r\nCongratulations to the new board and a special thank you to departing Technical Board members James Bennett and Markus Holtermann.\n\r\n\r\nThank you to everyone who participated in the nominations and voting.\n\r\n\r\nVoting breakdown:\n\r\n\r\n49 Eligible voters opted-in to voting\n\r\n46 Eligible voters cast votes\n\r\n \r\n\r\nCondorcet pairwise evaluation results\n\r\n\r\nAndrew Godwin  (Condorcet winner: wins contests with all other choices)\n\r\nFlorian Apolloner  loses to Andrew Godwin by 25–8\n\r\n Simon Charette  loses to Andrew Godwin by 28–7, loses to Florian Apolloner by 23–9\n\r\nAdam Johnson  loses to Andrew Godwin by 27–9, loses to Simon Charette by 19–18\n\r\nThomas Forbes  loses to Andrew Godwin by 30–4, loses to Adam Johnson by 25–5",
           "link": "https://www.djangoproject.com/weblog/2021/may/14/django-4x-technical-board-election-results/",
           "publishedOn": "2021-05-14T13:19:49.000Z",
-          "wordCount": 677,
+          "wordCount": 676,
           "title": "Django 4.x Technical Board Election Results"
         },
         {
