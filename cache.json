@@ -112,24 +112,6 @@
           "publishedOn": "2021-05-16T03:14:00.003Z",
           "wordCount": 1426,
           "title": "The 2021 Python Language Summit: PEP 654 — Exception Groups and except*"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/d6dgSmSBl6M/the-2021-python-language-summit-welcome.html",
-          "author": null,
-          "description": "As attendees slowly filtered into the virtual event leading up to the official start time, they were clearly happy to see each other and have the chance to get together virtually even though PyCon US and the language summit have had to be remote for two years in a row. Although we would like to see each other in person again, one benefit of keeping the summit virtual this year was that more people were able to participate than usual.\nNormally, the number of people attending would be small enough that there would be time for each person to take a moment to introduce themselves to the group. Since there were more participants than usual this year, Łukasz Langa walked us through a slide deck that had a page for each of the attendees. It was an international event, with participants attending from North America, South America, Europe, Africa, the Middle East, Asia, and Oceania.\nAfter Łukasz finished the introductions, Ewa Jodlowska told us about the code of conduct and the procedures in place to help all participants feel welcome and have a positive experience.\nWith the 2021 Python Language Summit off to a good start, we took a group photo and were ready to launch into the talks!",
-          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/d6dgSmSBl6M/the-2021-python-language-summit-welcome.html",
-          "publishedOn": "2021-05-14T01:05:00.001Z",
-          "wordCount": 956,
-          "title": "The 2021 Python Language Summit: Welcome, Introductions, Guidelines"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html",
-          "author": null,
-          "description": "Every year, a small group of core developers from Python implementations such as CPython, PyPy, Jython, and more come together to share information, discuss problems, and seek consensus in order to help Python continue to flourish.\n\n\nThe Python Language Summit features short presentations followed by group discussions. The topics can relate to the language itself, the standard library, \r\nthe development process, documentation, packaging, and more! In 2021, the summit was held over two days by videoconference and was led by Mariatta Wijaya and Łukasz \r\nLanga.\n\nIf you weren't able to attend the summit, then you can still stay up to date with what's happening in the world of Python by reading blog posts about all of the talks that were given. Over the next few weeks, you'll be able to \r\ndive into all of the news from the summit so you can join in \r\non the big conversations that are happening in the Python community.\n\n\nDay 1 \n\n \nWelcome, Introductions, Guidelines \nŁukasz \r\nLanga \n\n \nPEP 654 — Exception Groups and except* \nIrit Katriel, Yury Selivanov, and Guido van Rossum \n\n \nProgress on Running Multiple Python Interpreters in Parallel in the Same Process \nVictor Stinner and Dong-hee Na\n \nCPython Improvements at Instagram \nDino Viehland\n \nMaking CPython Faster \nGuido van Rossum\n \nHPy — Present and Future \nAntonio Cuni\n \nLightning Talks, Round 1 \nPetr Viktorin, Lorena Mesa, Scott Shawcroft, and Jeff Allen\n \n\n\nDay 2 \n\n\n \n\nThe Challenges of Packaging Python for a Linux Distro \nMatthias Klose\n \nThe Python Documentation Work Group \nMariatta Wijaya and Carol Willing\n \nWhat Is the stdlib? \nBrett Cannon\n \nWhat Should I Work on as a Core Dev? \nEric Snow\n \nFuzzing and Testing Python With Properties \nZac Hatfield-Dodds\n\n \nLightning Talks, Round 2 \nRonny Pfannschmidt, Pablo Galindo, Batuhan Taskaya, Luciano Ramalho, Jason R. Coombs, Mark Shannon, and Tobias Kohn \n \n\nWe hope you enjoy diving into what went on at the summit, and we're looking forward to seeing how the Python community continues these discussions.",
-          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/_-8J6H4Mr-o/the-2021-python-language-summit.html",
-          "publishedOn": "2021-05-13T20:27:00.016Z",
-          "wordCount": 1060,
-          "title": "The 2021 Python Language Summit"
         }
       ]
     },
@@ -144,7 +126,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.4,\nDjango 3.1.12, and\nDjango 2.2.24.\nThese release addresses the security issue detailed below. We encourage all\nusers of Django to upgrade as soon as possible.\nCVE-2021-33203: Potential directory traversal via admindocs\nStaff members could use the admindocs\nTemplateDetailView view to check the existence of arbitrary files.\nAdditionally, if (and only if) the default admindocs templates have been\ncustomized by the developers to also expose the file contents, then not only\nthe existence but also the file contents would have been exposed.\nAs a mitigation, path sanitation is now applied and only files within the\ntemplate root directories can be loaded.\nThis issue has low severity, according to the Django secu…",
           "link": "https://www.djangoproject.com/weblog/2021/jun/02/security-releases/",
           "publishedOn": "2021-06-02T09:07:49.000Z",
-          "wordCount": 919,
+          "wordCount": 921,
           "title": "Django security releases issued: 3.2.4, 3.1.12, and 2.2.24"
         },
         {
@@ -153,7 +135,7 @@
           "description": "At approximately 3 am UTC on May 26, 2021, the operators of the Freenode IRC network assumed control of the #django* channels on that network. This means that representatives of the Django community no longer retain the ability to enforce Django's Code of Conduct on the Freenode IRC network. Additionally, we do not have the ability to set a topic on Django-related IRC channels on this network.\n\r\n\r\nPlease join us in #django and #django-dev on Libera.Chat for discussion of the usage and development of Django, respectively. Additionally, you may refer to our documentation on Contributing to Django for some of the other options available to you for discussion of the usage and development of Django.",
           "link": "https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/",
           "publishedOn": "2021-05-26T17:45:15.000Z",
-          "wordCount": 663,
+          "wordCount": 666,
           "title": "Django IRC Channels migration to Libera.Chat"
         },
         {
