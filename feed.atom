@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-13T00:42:55.594Z</id>
+    <id>urn:2021-06-14T00:39:05.572Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-13T00:42:55.594Z</updated>
+    <updated>2021-06-14T00:39:05.572Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -318,58 +318,6 @@ Return a list of exceptions instead of raising them, in which case they become e
 Wrap the list of exceptions in a wrapper exception and use it as a list of error codes, which still can't be handled with exception-…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Django 4.x Technical Board Election Results]]></title>
-        <id>https://www.djangoproject.com/weblog/2021/may/14/django-4x-technical-board-election-results/</id>
-        <link href="https://www.djangoproject.com/weblog/2021/may/14/django-4x-technical-board-election-results/"/>
-        <updated>2021-05-14T13:19:49.000Z</updated>
-        <summary type="html"><![CDATA[The Technical Board for the Django 4.x release cycle will be
-
-
-
-Andrew Godwin
-
-Florian Apolloner
-
-Simon Charette
-
-Adam Johnson
-
-Thomas Forbes
-
-
-
-Congratulations to the new board and a special thank you to departing Technical Board members James Bennett and Markus Holtermann.
-
-
-Thank you to everyone who participated in the nominations and voting.
-
-
-Voting breakdown:
-
-
-49 Eligible voters opted-in to voting
-
-46 Eligible voters cast votes
-
- 
-
-Condorcet pairwise evaluation results
-
-
-Andrew Godwin  (Condorcet winner: wins contests with all other choices)
-
-Florian Apolloner  loses to Andrew Godwin by 25–8
-
- Simon Charette  loses to Andrew Godwin by 28–7, loses to Florian Apolloner by 23–9
-
-Adam Johnson  loses to Andrew Godwin by 27–9, loses to Simon Charette by 19–18
-
-Thomas Forbes  loses to Andrew Godwin by 30–4, loses to Adam Johnson by 25–5]]></summary>
-        <author>
-            <name>Chaim Kirby</name>
         </author>
     </entry>
 </feed>
