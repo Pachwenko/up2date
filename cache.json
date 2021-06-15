@@ -103,15 +103,6 @@
           "publishedOn": "2021-05-17T03:53:00.002Z",
           "wordCount": 1482,
           "title": "The 2021 Python Language Summit: Progress on Running Multiple Python Interpreters in Parallel in the Same Process"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YfwxVhCg4nM/the-2021-python-language-summit-pep-654.html",
-          "author": null,
-          "description": "PEP 654 was authored by Irit Katriel, Yury Selivanov, and Guido van Rossum. This PEP is currently at the draft stage. At the 2021 Python Language Summit, the authors shared what it is, why we need it, and which ideas they rejected.\n\n\n What Is PEP 654?\n\n\nThe purpose of this PEP is to help Python users handle unrelated exceptions. Right now, if you're dealing with several unrelated exceptions, you can:\n\n\nRaise one exception and throw away the others, in which case you're losing exceptions\n\nReturn a list of exceptions instead of raising them, in which case they become error codes rather than exceptions, so you can't handle them with exception-handling mechanisms\nWrap the list of exceptions in a wrapper exception and use it as a list of error codes, which still can't be handled with exception-…",
-          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YfwxVhCg4nM/the-2021-python-language-summit-pep-654.html",
-          "publishedOn": "2021-05-16T03:14:00.003Z",
-          "wordCount": 1426,
-          "title": "The 2021 Python Language Summit: PEP 654 — Exception Groups and except*"
         }
       ]
     },
@@ -126,7 +117,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.4,\nDjango 3.1.12, and\nDjango 2.2.24.\nThese release addresses the security issue detailed below. We encourage all\nusers of Django to upgrade as soon as possible.\nCVE-2021-33203: Potential directory traversal via admindocs\nStaff members could use the admindocs\nTemplateDetailView view to check the existence of arbitrary files.\nAdditionally, if (and only if) the default admindocs templates have been\ncustomized by the developers to also expose the file contents, then not only\nthe existence but also the file contents would have been exposed.\nAs a mitigation, path sanitation is now applied and only files within the\ntemplate root directories can be loaded.\nThis issue has low severity, according to the Django secu…",
           "link": "https://www.djangoproject.com/weblog/2021/jun/02/security-releases/",
           "publishedOn": "2021-06-02T09:07:49.000Z",
-          "wordCount": 924,
+          "wordCount": 920,
           "title": "Django security releases issued: 3.2.4, 3.1.12, and 2.2.24"
         },
         {

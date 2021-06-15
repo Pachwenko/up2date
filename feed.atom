@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-14T00:39:05.572Z</id>
+    <id>urn:2021-06-15T00:40:58.276Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-14T00:39:05.572Z</updated>
+    <updated>2021-06-15T00:40:58.276Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -294,28 +294,6 @@ Victor Stinner started by explaining why we would need to make the changes that 
 
 Embedding Python
 One of the current issues with embedding Python is that it doesn't explicitly release memory at exit. If you use a tool to track memory leaks, such as Valgrind…]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: PEP 654 — Exception Groups and except*]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YfwxVhCg4nM/the-2021-python-language-summit-pep-654.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/YfwxVhCg4nM/the-2021-python-language-summit-pep-654.html"/>
-        <updated>2021-05-16T03:14:00.003Z</updated>
-        <summary type="html"><![CDATA[PEP 654 was authored by Irit Katriel, Yury Selivanov, and Guido van Rossum. This PEP is currently at the draft stage. At the 2021 Python Language Summit, the authors shared what it is, why we need it, and which ideas they rejected.
-
-
- What Is PEP 654?
-
-
-The purpose of this PEP is to help Python users handle unrelated exceptions. Right now, if you're dealing with several unrelated exceptions, you can:
-
-
-Raise one exception and throw away the others, in which case you're losing exceptions
-
-Return a list of exceptions instead of raising them, in which case they become error codes rather than exceptions, so you can't handle them with exception-handling mechanisms
-Wrap the list of exceptions in a wrapper exception and use it as a list of error codes, which still can't be handled with exception-…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
         </author>
