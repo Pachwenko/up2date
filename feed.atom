@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-15T00:40:58.276Z</id>
+    <id>urn:2021-06-16T00:41:10.748Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-15T00:40:58.276Z</updated>
+    <updated>2021-06-16T00:41:10.748Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -276,26 +276,6 @@ What We've Done So Far
 Ember has also been shipping improvements with the “a…]]></summary>
         <author>
             <name>Ember.js Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: Progress on Running Multiple Python Interpreters in Parallel in the Same Process]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/JSbNFZCoINo/the-2021-python-language-summit_16.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/JSbNFZCoINo/the-2021-python-language-summit_16.html"/>
-        <updated>2021-05-17T03:53:00.002Z</updated>
-        <summary type="html"><![CDATA[Victor Stinner and Dong-hee Na gave a presentation at the 2021 Python Language Summit about running multiple Python interpreters in parallel in the same process.
-
-
-
-
-Use Cases 
-
-Victor Stinner started by explaining why we would need to make the changes that they're discussing. One use case would be if you wanted to embed Python and extend the features of your application, like Vim, Blender, LibreOffice, and pybind11. Another use case is subinterpreters. For example, to handle HTTP requests, there is Apache mod_wsgi, which uses subinterpreters. There are also plugins for WeeChat, which is an IRC client written in C.
-
-Embedding Python
-One of the current issues with embedding Python is that it doesn't explicitly release memory at exit. If you use a tool to track memory leaks, such as Valgrind…]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
         </author>
     </entry>
 </feed>
