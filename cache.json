@@ -94,15 +94,6 @@
           "publishedOn": "2021-05-21T00:42:00.001Z",
           "wordCount": 1245,
           "title": "The 2021 Python Language Summit: Making CPython Faster"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4Tpn4LZPws4/the-2021-python-language-summit-cpython.html",
-          "author": null,
-          "description": "Dino Viehland gave a presentation at the 2021 Python Language Summit about improvements to CPython's performance at Instagram. \n\nCinder is Instagram's internal performance-oriented production version of\r\nCPython 3.8, so all of the comparisons in this presentation dealt with Python 3.8. Cinder has a lot of performance optimizations, including\r\nbytecode inline caching, eager evaluation of coroutines, a method-at-a-time\r\nJIT, and an experimental bytecode compiler that uses type annotations to emit\r\ntype-specialized bytecode that performs better in the JIT.\nSuccessful Improvements\nInstagram did a lot of work with asynchronous I/O. One big change was sending and receiving values without raising StopIteration. Raising all of those exceptions was a huge source of overhead. On simple benchmarks, t…",
-          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4Tpn4LZPws4/the-2021-python-language-summit-cpython.html",
-          "publishedOn": "2021-05-20T04:02:00.001Z",
-          "wordCount": 1689,
-          "title": "The 2021 Python Language Summit: CPython Performance Improvements at Instagram"
         }
       ]
     },
@@ -126,7 +117,7 @@
           "description": "At approximately 3 am UTC on May 26, 2021, the operators of the Freenode IRC network assumed control of the #django* channels on that network. This means that representatives of the Django community no longer retain the ability to enforce Django's Code of Conduct on the Freenode IRC network. Additionally, we do not have the ability to set a topic on Django-related IRC channels on this network.\n\r\n\r\nPlease join us in #django and #django-dev on Libera.Chat for discussion of the usage and development of Django, respectively. Additionally, you may refer to our documentation on Contributing to Django for some of the other options available to you for discussion of the usage and development of Django.",
           "link": "https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/",
           "publishedOn": "2021-05-26T17:45:15.000Z",
-          "wordCount": 665,
+          "wordCount": 664,
           "title": "Django IRC Channels migration to Libera.Chat"
         }
       ]
@@ -153,15 +144,6 @@
           "publishedOn": "2021-05-21T00:00:00.000Z",
           "wordCount": 1121,
           "title": "The Ember Times - Issue No. 180"
-        },
-        {
-          "id": "https://blog.emberjs.com/gaad-2021",
-          "author": null,
-          "description": "As we join Global Accessibility Awareness Day (GAAD) in celebrating its tenth anniversary, we are delighted to announce that the Ember JavaScript Framework has taken the GAAD pledge to make accessibility a core value of our framework.\nFor those who know the project well, this will come as no surprise. It’s no secret that we think that accessibility is an integral part of quality code. Ember.js is committed to providing a well-lit path for developer success, and our plans to make it easier for developers to write accessible code are part of that. In 2020, the Ember Accessibility Strike Team became the Ember Accessibility Working Group, demonstrating our commitment to long-term accessibility growth in the framework.\nWhat We've Done So Far\nEmber has also been shipping improvements with the “a…",
-          "link": "https://blog.emberjs.com/gaad-2021",
-          "publishedOn": "2021-05-20T00:00:00.000Z",
-          "wordCount": 627,
-          "title": "The Ember JS Framework Takes the GAAD Pledge"
         }
       ]
     }

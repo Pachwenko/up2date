@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-18T00:40:14.149Z</id>
+    <id>urn:2021-06-19T00:40:14.908Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-18T00:40:14.149Z</updated>
+    <updated>2021-06-19T00:40:14.908Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -255,37 +255,6 @@ Many thanks to Natasha Fel and Andrey Fel (@andreyfel) for sharing their photos 
 Prettier for Handlebars support 🙌
 Prettier can now officially format HTML templates with Handlebars (HBS) in the newly released version 2.3.0. Thank you to Cyrille David (@dcyriller) for pushing this initiative, which started in 2017, through the finish line.
 Prettier is an opinionated code formatter. It e…]]></summary>
-        <author>
-            <name>Ember.js Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: CPython Performance Improvements at Instagram]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4Tpn4LZPws4/the-2021-python-language-summit-cpython.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4Tpn4LZPws4/the-2021-python-language-summit-cpython.html"/>
-        <updated>2021-05-20T04:02:00.001Z</updated>
-        <summary type="html"><![CDATA[Dino Viehland gave a presentation at the 2021 Python Language Summit about improvements to CPython's performance at Instagram. 
-
-Cinder is Instagram's internal performance-oriented production version of
-CPython 3.8, so all of the comparisons in this presentation dealt with Python 3.8. Cinder has a lot of performance optimizations, including
-bytecode inline caching, eager evaluation of coroutines, a method-at-a-time
-JIT, and an experimental bytecode compiler that uses type annotations to emit
-type-specialized bytecode that performs better in the JIT.
-Successful Improvements
-Instagram did a lot of work with asynchronous I/O. One big change was sending and receiving values without raising StopIteration. Raising all of those exceptions was a huge source of overhead. On simple benchmarks, t…]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ember JS Framework Takes the GAAD Pledge]]></title>
-        <id>https://blog.emberjs.com/gaad-2021</id>
-        <link href="https://blog.emberjs.com/gaad-2021"/>
-        <updated>2021-05-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As we join Global Accessibility Awareness Day (GAAD) in celebrating its tenth anniversary, we are delighted to announce that the Ember JavaScript Framework has taken the GAAD pledge to make accessibility a core value of our framework.
-For those who know the project well, this will come as no surprise. It’s no secret that we think that accessibility is an integral part of quality code. Ember.js is committed to providing a well-lit path for developer success, and our plans to make it easier for developers to write accessible code are part of that. In 2020, the Ember Accessibility Strike Team became the Ember Accessibility Working Group, demonstrating our commitment to long-term accessibility growth in the framework.
-What We've Done So Far
-Ember has also been shipping improvements with the “a…]]></summary>
         <author>
             <name>Ember.js Blog</name>
         </author>
