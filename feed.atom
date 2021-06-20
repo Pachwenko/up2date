@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-19T00:40:14.908Z</id>
+    <id>urn:2021-06-20T00:42:45.930Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-19T00:40:14.908Z</updated>
+    <updated>2021-06-20T00:42:45.930Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Ember Times - Issue No. 182]]></title>
+        <id>https://blog.emberjs.com/the-ember-times-issue-182</id>
+        <link href="https://blog.emberjs.com/the-ember-times-issue-182"/>
+        <updated>2021-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Emberistas! 🐹
+Using the in-element helper, migrating Controllers to top-level Components, Ember Upgrade Sprints, Ember development on Twitch, and remodeling an Ember App Part 2.
+Using the in-element helper ⛳
+Faith Or (@faith-or) wrote a blog post on how they migrated from ember-wormhole to the built-in in-element helper introduced in Ember 3.20.
+Ember Wormhole is an addon that renders a child view somewhere else in the DOM outside of the component.
+The in-element helper renders its block content outside of the regular flow, into a DOM element given by its destinationElement positional argument.
+Common use cases for both include when a piece of UI is a logical child of a component but needs to render somewhere else such as a loading screen, a modal, tooltip or even a dropdown. The diffe…]]></summary>
+        <author>
+            <name>Ember.js Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update on the Python Software Foundation Executive Director]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/XOSTXVDJBCY/update-on-python-software-foundation.html</id>
@@ -224,39 +240,6 @@ HPy is an alternative API for writing C extensions. Although the current Python 
 Using HPy extensions will make it easier to support alternative implementations. HPy is designed to be GC friendly and isn't build on top of ref counting. It is also designed to have zero overhead on CPython, so you can port an existing module from the Python…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: Making CPython Faster]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/Mb7GnQBu9NY/the-2021-python-language-summit-making.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/Mb7GnQBu9NY/the-2021-python-language-summit-making.html"/>
-        <updated>2021-05-21T00:42:00.001Z</updated>
-        <summary type="html"><![CDATA[At the 2021 Python Language Summit, Guido van Rossum gave a presentation about plans for making CPython faster. This presentation came right after Dino Viehland's talk about Instagram's performance improvements to CPython and made multiple references to it.
- 
- 
-Can We Make CPython Faster?
-We can, but it's not yet clear by how much. Last October, Mark Shannon shared a plan on GitHub and python-dev. He asked for feedback and said that he could make CPython five times faster in four years, or fifty percent faster per year for four years in a row. He was looking for funding and wouldn't reveal the details of his plan without it.
-How Will We Make CPython Faster? 
-
-Seven months ago, Guido van Rossum left a brief retirement to work at Microsoft. He was given the freedom to pick a project and deci…]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ember Times - Issue No. 180]]></title>
-        <id>https://blog.emberjs.com/the-ember-times-issue-180</id>
-        <link href="https://blog.emberjs.com/the-ember-times-issue-180"/>
-        <updated>2021-05-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[👋 Emberistas! 🐹
-Ember's 10 year anniversary, Prettier for Handlebars support, Embroider in 3.5 weeks, GAAD pledge, quickstart to authentication, built with Ember: Fleetbase, and new and shiny add-ons ✨
-Happy 10 year anniversary, Ember.js! 🎉
-Many thanks to Natasha Fel and Andrey Fel (@andreyfel) for sharing their photos from Ember Nizhny Novgorod's Meetup, which featured a celebratory Nizhny Novgorod Tomster cake for Ember's big anniversary! Check out more photos from the meetup here.
-Prettier for Handlebars support 🙌
-Prettier can now officially format HTML templates with Handlebars (HBS) in the newly released version 2.3.0. Thank you to Cyrille David (@dcyriller) for pushing this initiative, which started in 2017, through the finish line.
-Prettier is an opinionated code formatter. It e…]]></summary>
-        <author>
-            <name>Ember.js Blog</name>
         </author>
     </entry>
 </feed>
