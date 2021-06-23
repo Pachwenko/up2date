@@ -49,24 +49,6 @@
           "publishedOn": "2021-05-30T03:34:00.000Z",
           "wordCount": 1433,
           "title": "The 2021 Python Language Summit: What Is the stdlib?"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/F-Q2IZq3k0Q/the-2021-python-language-summit-python.html",
-          "author": null,
-          "description": "Mariatta Wijaya and Carol Willing gave a presentation about a new documentation work group at the 2021 Python Language Summit. Last year, Carol Willing and Ned Batchelder spoke about laying the groundwork for this project at the 2020 Python Language Summit.\n\n\n\n \nWhy Does Python Need a Documentation Work Group?\nThe mission of the Python Software Foundation is to advance the Python language and grow a diverse, international community of Python programmers so that the language can continue to flourish well into the future. However, when it comes to documentation, core developers don't necessarily reflect the larger world of Python users. If we can bring together core developers, documentarians, and educators, then we can have better documentation that serves the needs of the wider community m…",
-          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/F-Q2IZq3k0Q/the-2021-python-language-summit-python.html",
-          "publishedOn": "2021-05-24T04:29:00.000Z",
-          "wordCount": 1283,
-          "title": "The 2021 Python Language Summit: The Python Documentation Work Group"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/7TvPpM19_4Q/the-2021-python-language-summit_23.html",
-          "author": null,
-          "description": "Matthias Klose gave a talk about the challenges of packaging Python for a Linux distribution at the 2021 Python Language Summit. He wanted to discuss:\n\nCPython sources and how they fit with Debian and Ubuntu\nOwnership of module installations \nArchitecture and platform support\nInclusiveness and the ubiquity of Python on various platforms\nCommunication issues\n \nWhat Is Python Like on Debian and Ubuntu? \n\nHe shared what Debian 11 and Ubuntu 21.04 have installed for Python. By default, there is almost nothing, so it's usually pulled in by various seeds or images. Linux distributions usually have a mature packaging system and don't ship naked CPython, unlike macOs or Windows.\nThese Debian and Ubuntu versions still use Python 2 to bootstrap PyPI, but one version of Python 3 is also shipped with …",
-          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/7TvPpM19_4Q/the-2021-python-language-summit_23.html",
-          "publishedOn": "2021-05-24T00:45:00.003Z",
-          "wordCount": 1583,
-          "title": "The 2021 Python Language Summit: The Challenges of Packaging Python for a Linux Distro"
         }
       ]
     },
@@ -90,7 +72,7 @@
           "description": "At approximately 3 am UTC on May 26, 2021, the operators of the Freenode IRC network assumed control of the #django* channels on that network. This means that representatives of the Django community no longer retain the ability to enforce Django's Code of Conduct on the Freenode IRC network. Additionally, we do not have the ability to set a topic on Django-related IRC channels on this network.\n\r\n\r\nPlease join us in #django and #django-dev on Libera.Chat for discussion of the usage and development of Django, respectively. Additionally, you may refer to our documentation on Contributing to Django for some of the other options available to you for discussion of the usage and development of Django.",
           "link": "https://www.djangoproject.com/weblog/2021/may/26/django-irc-channels-migration-liberachat/",
           "publishedOn": "2021-05-26T17:45:15.000Z",
-          "wordCount": 664,
+          "wordCount": 663,
           "title": "Django IRC Channels migration to Libera.Chat"
         }
       ]

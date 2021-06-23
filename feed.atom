@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-22T00:38:14.433Z</id>
+    <id>urn:2021-06-23T00:37:48.286Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-22T00:38:14.433Z</updated>
+    <updated>2021-06-23T00:37:48.286Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -171,43 +171,6 @@ How…]]></summary>
 Please join us in #django and #django-dev on Libera.Chat for discussion of the usage and development of Django, respectively. Additionally, you may refer to our documentation on Contributing to Django for some of the other options available to you for discussion of the usage and development of Django.]]></summary>
         <author>
             <name>Django Software Foundation</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: The Python Documentation Work Group]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/F-Q2IZq3k0Q/the-2021-python-language-summit-python.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/F-Q2IZq3k0Q/the-2021-python-language-summit-python.html"/>
-        <updated>2021-05-24T04:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Mariatta Wijaya and Carol Willing gave a presentation about a new documentation work group at the 2021 Python Language Summit. Last year, Carol Willing and Ned Batchelder spoke about laying the groundwork for this project at the 2020 Python Language Summit.
-
-
-
- 
-Why Does Python Need a Documentation Work Group?
-The mission of the Python Software Foundation is to advance the Python language and grow a diverse, international community of Python programmers so that the language can continue to flourish well into the future. However, when it comes to documentation, core developers don't necessarily reflect the larger world of Python users. If we can bring together core developers, documentarians, and educators, then we can have better documentation that serves the needs of the wider community m…]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: The Challenges of Packaging Python for a Linux Distro]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/7TvPpM19_4Q/the-2021-python-language-summit_23.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/7TvPpM19_4Q/the-2021-python-language-summit_23.html"/>
-        <updated>2021-05-24T00:45:00.003Z</updated>
-        <summary type="html"><![CDATA[Matthias Klose gave a talk about the challenges of packaging Python for a Linux distribution at the 2021 Python Language Summit. He wanted to discuss:
-
-CPython sources and how they fit with Debian and Ubuntu
-Ownership of module installations 
-Architecture and platform support
-Inclusiveness and the ubiquity of Python on various platforms
-Communication issues
- 
-What Is Python Like on Debian and Ubuntu? 
-
-He shared what Debian 11 and Ubuntu 21.04 have installed for Python. By default, there is almost nothing, so it's usually pulled in by various seeds or images. Linux distributions usually have a mature packaging system and don't ship naked CPython, unlike macOs or Windows.
-These Debian and Ubuntu versions still use Python 2 to bootstrap PyPI, but one version of Python 3 is also shipped with …]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
         </author>
     </entry>
 </feed>
