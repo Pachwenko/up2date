@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-23T00:37:48.286Z</id>
+    <id>urn:2021-06-24T00:31:57.660Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-23T00:37:48.286Z</updated>
-    <generator>osmosfeed 1.10.2</generator>
+    <updated>2021-06-24T00:31:57.660Z</updated>
+    <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[The Ember Times - Issue No. 182]]></title>
