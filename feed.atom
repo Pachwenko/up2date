@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-28T00:43:02.432Z</id>
+    <id>urn:2021-06-29T00:40:29.776Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-28T00:43:02.432Z</updated>
+    <updated>2021-06-29T00:40:29.776Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -138,26 +138,6 @@ template root directories can be loaded.
 This issue has low severity, according to the Django secu…]]></summary>
         <author>
             <name>Carlton Gibson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: What Is the stdlib?]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/z8bYv7-CvBw/the-2021-python-language-summit-what-is.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/z8bYv7-CvBw/the-2021-python-language-summit-what-is.html"/>
-        <updated>2021-05-30T03:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Brett Cannon gave a presentation at the 2021 Python Language Summit about the standard library in order to start a conversation about whether it's time to write a PEP that more clearly defines it.
-
-
- 
-What Is the stdlib? 
-
-He succinctly described the stdlib as "a collection of modules that ship with CPython (usually)." This was the most accurate definition he could give, considering how big it is, how varied its contents are, and how long it has been around.
-He didn't offer an answer to the question about whether or not there should be a new informational PEP to define clear goals for the stblib, but he wanted core developers to engage with the question. There are a variety of opinions on the stdlib, but it could be beneficial to come to some kind of agreement about:
-
-What it should be
-How…]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
         </author>
     </entry>
 </feed>

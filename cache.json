@@ -40,15 +40,6 @@
           "publishedOn": "2021-06-05T20:38:00.001Z",
           "wordCount": 1190,
           "title": "The 2021 Python Language Summit: What Should I Work on as a Core Dev?"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/z8bYv7-CvBw/the-2021-python-language-summit-what-is.html",
-          "author": null,
-          "description": "Brett Cannon gave a presentation at the 2021 Python Language Summit about the standard library in order to start a conversation about whether it's time to write a PEP that more clearly defines it.\n\n\n \nWhat Is the stdlib? \n\nHe succinctly described the stdlib as \"a collection of modules that ship with CPython (usually).\" This was the most accurate definition he could give, considering how big it is, how varied its contents are, and how long it has been around.\nHe didn't offer an answer to the question about whether or not there should be a new informational PEP to define clear goals for the stblib, but he wanted core developers to engage with the question. There are a variety of opinions on the stdlib, but it could be beneficial to come to some kind of agreement about:\n\nWhat it should be\nHow…",
-          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/z8bYv7-CvBw/the-2021-python-language-summit-what-is.html",
-          "publishedOn": "2021-05-30T03:34:00.000Z",
-          "wordCount": 1433,
-          "title": "The 2021 Python Language Summit: What Is the stdlib?"
         }
       ]
     },
