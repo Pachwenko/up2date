@@ -16,6 +16,61 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-01">2021-07-01</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.djangoproject.com/weblog/">The Django weblog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Django security releases issued: 3.2.5 and 3.1.13</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.djangoproject.com/weblog/2021/jul/01/security-releases/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>In accordance with our security release policy, the Django team
+is issuing
+Django 3.2.5 and
+Django 3.1.13.
+These releases address the security issue with severity &quot;high&quot; detailed below. We encourage all users of Django to upgrade as soon as possible.
+CVE-2021-35042: Potential SQL injection via unsanitized QuerySet.order_by() input
+Unsanitized user input passed to QuerySet.order_by() could bypass intended
+column reference validation in path marked for deprecation resulting in a
+potential SQL injection even if a deprecation warning is emitted.
+As a mitigation the strict column reference validation was restored for the
+duration of the deprecation period. This regression appeared in 3.1 as a side
+effect of fixing #31426.
+The issue is not present in the main branch as the deprecated path has been
+removed.
+Thanks to Joel Saunders for the report.
+Affected supported versions
+Django 3.2
+Django 3.1
+Resolution
+Patches to resolve the issue have been applied to Django&#x27;s 3.2 and 3.1
+release branches. The patches may be obtained from the
+following changesets:
+On the 3.2 release branch
+On the 3.1 release branch
+The following releases have been issued:
+Django 3.2.5 (download Django 3.2.5 | 3.2.5 checksums)
+Django 3.1.13 (download Django 3.1.13 | 3.1.13 checksums)
+The PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.
+General notes regarding security reporting
+As always, we ask that potential security issues be reported via
+private email to security@djangoproject.com, and not via Django&#x27;s
+Trac instance or the django-developers list. Please see our security
+policies for further
+information.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-06-18">2021-06-18</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -197,46 +252,9 @@ The EmberFest team is confident that this year’s conference can happen in pers
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-02">2021-06-02</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.djangoproject.com/weblog/">The Django weblog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Django security releases issued: 3.2.4, 3.1.12, and 2.2.24</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.djangoproject.com/weblog/2021/jun/02/security-releases/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>In accordance with our security release policy, the Django team
-is issuing
-Django 3.2.4,
-Django 3.1.12, and
-Django 2.2.24.
-These release addresses the security issue detailed below. We encourage all
-users of Django to upgrade as soon as possible.
-CVE-2021-33203: Potential directory traversal via admindocs
-Staff members could use the admindocs
-TemplateDetailView view to check the existence of arbitrary files.
-Additionally, if (and only if) the default admindocs templates have been
-customized by the developers to also expose the file contents, then not only
-the existence but also the file contents would have been exposed.
-As a mitigation, path sanitation is now applied and only files within the
-template root directories can be loaded.
-This issue has low severity, according to the Django secu…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-01T00:44:03.239Z">2021-07-01T00:44:03.239Z</time>
+    <time id="build-timestamp" datetime="2021-07-02T00:40:27.789Z">2021-07-02T00:40:27.789Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
