@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-02T00:40:27.810Z</id>
+    <id>urn:2021-07-03T00:40:53.003Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-02T00:40:27.810Z</updated>
+    <updated>2021-07-03T00:40:53.003Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -46,6 +46,25 @@ policies for further
 information.]]></summary>
         <author>
             <name>Mariusz Felisiak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Ember Times - Issue No. 183]]></title>
+        <id>https://blog.emberjs.com/the-ember-times-issue-183</id>
+        <link href="https://blog.emberjs.com/the-ember-times-issue-183"/>
+        <updated>2021-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Emberistas! 🐹
+New release of Unstable Ember Language Server, share code snippets on Twitter using Ember, the difference between ember serve and npm run start, and an addon roundup!
+Release of uELS v2.0.16 ✅
+Unstable Ember Language Server is a fully featured fork of Ember Language Server. While the name says unstable it actually has been stable and ready to use for day-to-day development!
+Thanks to both Alex LaFroscia (@alexlafroscia) and Alex Kanunnikov (@lifeart) for new version release which provides:
+Support workspace/didChangeConfiguration event
+Improved startup speed by delaying template tokenization
+Autocomplete now use global registry and file change events, not fs lookup, but we still do fs lookup on project initialization
+Added template-lint severity support
+Improved template-…]]></summary>
+        <author>
+            <name>Ember.js Blog</name>
         </author>
     </entry>
     <entry>
