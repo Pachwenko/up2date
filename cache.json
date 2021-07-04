@@ -81,15 +81,6 @@
           "publishedOn": "2021-06-18T00:00:00.000Z",
           "wordCount": 1081,
           "title": "The Ember Times - Issue No. 182"
-        },
-        {
-          "id": "https://blog.emberjs.com/the-ember-times-issue-181",
-          "author": null,
-          "description": "👋 Emberistas! 🐹\nEmberFest, remodeling an Ember app, Ember CLI history, ember-auto-import, web bundling, ember-concurrency release, Ember Data roundup, rwjblue podcast, and keeping a clean git history.\nEmberFest 2021 is happening! 🏛️\nMark your calendars for September 30th – October 1st of 2021 – EmberFest will be back as a hybrid on-site/virtual event! EmberFest is the European Community Ember Conference. The location will be a secret until ticket sales are open so stay tuned.\nThe EmberFest team is confident that this year’s conference can happen in person. At the same time, they realize that some people can’t or might not want to travel yet, so for the first time, EmberFest is going hybrid: there will be both on-site and remote tickets for a livestream available. Early bird tickets will…",
-          "link": "https://blog.emberjs.com/the-ember-times-issue-181",
-          "publishedOn": "2021-06-04T00:00:00.000Z",
-          "wordCount": 1260,
-          "title": "The Ember Times - Issue No. 181"
         }
       ]
     }

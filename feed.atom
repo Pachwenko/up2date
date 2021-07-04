@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-03T00:40:53.003Z</id>
+    <id>urn:2021-07-04T00:41:42.711Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-03T00:40:53.003Z</updated>
+    <updated>2021-07-04T00:41:42.711Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -161,20 +161,6 @@ When Eric Snow first got involved in core development over a decade ago, he like
 Over the years, he's thought about how he and other contributors decide what to work on and why. What directs the efforts of contributors and core developers? Contributors make decisions based on their availability, expertise, and interests. Core developers need to act as s…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ember Times - Issue No. 181]]></title>
-        <id>https://blog.emberjs.com/the-ember-times-issue-181</id>
-        <link href="https://blog.emberjs.com/the-ember-times-issue-181"/>
-        <updated>2021-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[👋 Emberistas! 🐹
-EmberFest, remodeling an Ember app, Ember CLI history, ember-auto-import, web bundling, ember-concurrency release, Ember Data roundup, rwjblue podcast, and keeping a clean git history.
-EmberFest 2021 is happening! 🏛️
-Mark your calendars for September 30th – October 1st of 2021 – EmberFest will be back as a hybrid on-site/virtual event! EmberFest is the European Community Ember Conference. The location will be a secret until ticket sales are open so stay tuned.
-The EmberFest team is confident that this year’s conference can happen in person. At the same time, they realize that some people can’t or might not want to travel yet, so for the first time, EmberFest is going hybrid: there will be both on-site and remote tickets for a livestream available. Early bird tickets will…]]></summary>
-        <author>
-            <name>Ember.js Blog</name>
         </author>
     </entry>
 </feed>
