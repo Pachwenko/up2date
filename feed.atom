@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-05T00:38:00.901Z</id>
+    <id>urn:2021-07-06T00:42:22.654Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-05T00:38:00.901Z</updated>
+    <updated>2021-07-06T00:42:22.654Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -158,23 +158,6 @@ Finding any fault is a success.
 For software engineering (programming, over time, in teams):
 
 The goal is to validate changes or detect regr…]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: What Should I Work on as a Core Dev?]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/ntiuibWUuVc/the-2021-python-language-summit-what.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/ntiuibWUuVc/the-2021-python-language-summit-what.html"/>
-        <updated>2021-06-05T20:38:00.001Z</updated>
-        <summary type="html"><![CDATA[At the 2021 Python Language Summit, Eric Snow gave a presentation about how core developers can receive guidance to help them work on improvements to the language that will bring the most benefit to the Python community.
-
-
-
-
-What Does the Community Need? 
-When Eric Snow first got involved in core development over a decade ago, he liked that there was so much to learn. But he found that the organization didn't offer a lot of direction in terms of guiding volunteers to the kind of work that would have the biggest impact. 
-Over the years, he's thought about how he and other contributors decide what to work on and why. What directs the efforts of contributors and core developers? Contributors make decisions based on their availability, expertise, and interests. Core developers need to act as s…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
         </author>
