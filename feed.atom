@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-06T00:42:22.654Z</id>
+    <id>urn:2021-07-07T00:42:39.709Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-06T00:42:22.654Z</updated>
+    <updated>2021-07-07T00:42:39.709Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -130,34 +130,6 @@ Here's what he would like to see in Python:
 Here's what he'd like to do:
 
 Cr…]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 Python Language Summit: Fuzzing and Testing Python With Properties]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html"/>
-        <updated>2021-06-06T16:37:00.002Z</updated>
-        <summary type="html"><![CDATA[At the 2021 Python Language Summit, Zac Hatfield-Dodds gave a presentation about fuzzing and testing with Python properties. This presentation tied in with the one he gave at the 2020 Python Language Summit.
-
-
-
- 
-
-What Is Testing?
-For the purposes of this talk, he defined testing as the art and science of running code and then checking if it did what it was supposed to do. He added that, although assertions, type checkers, linters, and code review are good, they are not testing.
-There are two general reasons why we might have tests:
-
-For correctness:
-
-The goal is to validate software and determine that they are no bugs.
-Nondeterminism is acceptable.
-Finding any fault is a success. 
-
-For software engineering (programming, over time, in teams):
-
-The goal is to validate changes or detect regr…]]></summary>
         <author>
             <name>Python Software Foundation News</name>
         </author>

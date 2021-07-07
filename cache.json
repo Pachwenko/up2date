@@ -22,15 +22,6 @@
           "publishedOn": "2021-06-09T16:13:00.000Z",
           "wordCount": 1691,
           "title": "The 2021 Python Language Summit: Lightning Talks, Round 2"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html",
-          "author": null,
-          "description": "At the 2021 Python Language Summit, Zac Hatfield-Dodds gave a presentation about fuzzing and testing with Python properties. This presentation tied in with the one he gave at the 2020 Python Language Summit.\n\n\n\n \n\nWhat Is Testing?\nFor the purposes of this talk, he defined testing as the art and science of running code and then checking if it did what it was supposed to do. He added that, although assertions, type checkers, linters, and code review are good, they are not testing.\nThere are two general reasons why we might have tests:\n\nFor correctness:\n\nThe goal is to validate software and determine that they are no bugs.\nNondeterminism is acceptable.\nFinding any fault is a success. \n\nFor software engineering (programming, over time, in teams):\n\nThe goal is to validate changes or detect regr…",
-          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/4JkUDb_sHRc/the-2021-python-language-summit-fuzzing.html",
-          "publishedOn": "2021-06-06T16:37:00.002Z",
-          "wordCount": 1532,
-          "title": "The 2021 Python Language Summit: Fuzzing and Testing Python With Properties"
         }
       ]
     },
@@ -45,7 +36,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.5 and\nDjango 3.1.13.\nThese releases address the security issue with severity \"high\" detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-35042: Potential SQL injection via unsanitized QuerySet.order_by() input\nUnsanitized user input passed to QuerySet.order_by() could bypass intended\ncolumn reference validation in path marked for deprecation resulting in a\npotential SQL injection even if a deprecation warning is emitted.\nAs a mitigation the strict column reference validation was restored for the\nduration of the deprecation period. This regression appeared in 3.1 as a side\neffect of fixing #31426.\nThe issue is not present in the main branch as the deprecated path has been\nremoved.\nThanks to Joel Saunders for the report.\nAffected supported versions\nDjango 3.2\nDjango 3.1\nResolution\nPatches to resolve the issue have been applied to Django's 3.2 and 3.1\nrelease branches. The patches may be obtained from the\nfollowing changesets:\nOn the 3.2 release branch\nOn the 3.1 release branch\nThe following releases have been issued:\nDjango 3.2.5 (download Django 3.2.5 | 3.2.5 checksums)\nDjango 3.1.13 (download Django 3.1.13 | 3.1.13 checksums)\nThe PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.\nGeneral notes regarding security reporting\nAs always, we ask that potential security issues be reported via\nprivate email to security@djangoproject.com, and not via Django's\nTrac instance or the django-developers list. Please see our security\npolicies for further\ninformation.",
           "link": "https://www.djangoproject.com/weblog/2021/jul/01/security-releases/",
           "publishedOn": "2021-07-01T06:42:04.000Z",
-          "wordCount": 796,
+          "wordCount": 797,
           "title": "Django security releases issued: 3.2.5 and 3.1.13"
         }
       ]
