@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-15T00:41:49.082Z</id>
+    <id>urn:2021-07-16T00:41:26.755Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-15T00:41:49.082Z</updated>
+    <updated>2021-07-16T00:41:26.756Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Road to Ember 4.0]]></title>
+        <id>https://blog.emberjs.com/the-road-to-ember-4-0</id>
+        <link href="https://blog.emberjs.com/the-road-to-ember-4-0"/>
+        <updated>2021-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Contributors to the Ember project have been hard at work since Ember Octane was released in December 2019.
+Over the duration of a challenging (and sometimes devastating) year and a half, we've shipped a powerful new feature (Named Blocks) and supported an ecosystem shifting to Octane conventions. We've more closely aligned Ember with wider frontend conventions through improved publishing & build tooling (Embroider) and better support for TypeScript (both through ember-cli-typescript and reducing reliance on type-unsafe framework features).
+Check out Godfrey's EmberConf 2021 keynote for
+a more complete walk-through of recent changes in Ember.
+Announcing Ember 4.0
+In his EmberConf 2021 keynote, Yehuda shared a name for Ember's next edition: Polaris. In order to unblock Polaris providing the …]]></summary>
+        <author>
+            <name>Ember.js Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Łukasz Langa is the inaugural CPython Developer-in-Residence!]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/QIjVUbY12IY/ukasz-langa-is-inaugural-cpython.html</id>

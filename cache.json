@@ -47,6 +47,15 @@
       "siteUrl": "https://blog.emberjs.com/rss.xml",
       "articles": [
         {
+          "id": "https://blog.emberjs.com/the-road-to-ember-4-0",
+          "author": null,
+          "description": "Contributors to the Ember project have been hard at work since Ember Octane was released in December 2019.\nOver the duration of a challenging (and sometimes devastating) year and a half, we've shipped a powerful new feature (Named Blocks) and supported an ecosystem shifting to Octane conventions. We've more closely aligned Ember with wider frontend conventions through improved publishing & build tooling (Embroider) and better support for TypeScript (both through ember-cli-typescript and reducing reliance on type-unsafe framework features).\nCheck out Godfrey's EmberConf 2021 keynote for\na more complete walk-through of recent changes in Ember.\nAnnouncing Ember 4.0\nIn his EmberConf 2021 keynote, Yehuda shared a name for Ember's next edition: Polaris. In order to unblock Polaris providing the …",
+          "link": "https://blog.emberjs.com/the-road-to-ember-4-0",
+          "publishedOn": "2021-07-14T00:00:00.000Z",
+          "wordCount": 1334,
+          "title": "The Road to Ember 4.0"
+        },
+        {
           "id": "https://blog.emberjs.com/ember-3-27-released",
           "author": null,
           "description": "Today the Ember project is announcing release 3.27 of Ember.js, Ember Data, and Ember CLI. This is a minor version, stable release.\nWe're also announcing the start of the 3.28 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test beta builds and report any bugs before they are published as a stable release in six weeks' time. The ember-try addon is a great way to continuously test your projects against the latest Ember releases.\nEmber.js 3.28 (again, starting beta today) is the final planned version of the 3.x release cycle, and will\nbecome an LTS release. As of the 3.28-beta being released, the main development\nbranch of all Ember projects will become 4.0. Look for more information on Ember\n4.0 here on the blog this coming week.\nYou can read m…",
