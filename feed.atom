@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-21T00:43:24.071Z</id>
+    <id>urn:2021-07-22T00:42:28.004Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-21T00:43:24.071Z</updated>
+    <updated>2021-07-22T00:42:28.004Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Python Software Foundation Fellow Members for Q2 2021]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/1_DITBV7SCk/python-software-foundation-fellow.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/1_DITBV7SCk/python-software-foundation-fellow.html"/>
+        <updated>2021-07-21T15:12:00.000Z</updated>
+        <summary type="html"><![CDATA[The PSF is pleased to announced its second batch of PSF Fellows for 2021! Let us welcome the new PSF Fellows for Q2! The following people continue to do amazing things for the Python community:
+Cheuk Ting Ho
+Twitter, GitHub, LinkedIn, Website
+Emily Morehouse-Valcarcel
+Twitter, GitHub, Website
+Francisco Palm
+Twitter, GitHub, LinkedIn, Website
+Ivan Levkivskyi
+GitHub
+Jakub Baláš
+João Sebastião de Oliveira Bueno
+Twitter, GitHub, StackOverflow profile
+Jukka Lehtosalo
+Michael J. Sullivan
+Miroslav Šedivý
+
+
+Thank you for your continued contributions. We have added you to our Fellow roster online.
+The above members help support the Python ecosystem by being phenomenal leaders, sustaining the growth of the Python scientific community, contributing to diversity efforts through PyLadies and other communities, maintaining virtual Python communities, maintaining Python libraries, creating educational material, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.
+Let's continue recognizing Pythonistas all over the world for their impact on our community. The criteria for Fellow members is available online: https://www.python.org/psf/fellows/. If you would like to nominate someone to be a PSF Fellow, please send a description of their Python accomplishments and their email address to psf-fellow at python.org. We are accepting nominations for quarter 3 through August 20, 2021.
+Are you a PSF Fellow and want to help the Work Group review nominations? Contact us at psf-fellow at python.org.]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Ember Times - Issue No. 184]]></title>
         <id>https://blog.emberjs.com/the-ember-times-issue-184</id>

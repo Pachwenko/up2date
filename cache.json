@@ -6,12 +6,21 @@
       "siteUrl": "http://pyfound.blogspot.com/",
       "articles": [
         {
+          "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/1_DITBV7SCk/python-software-foundation-fellow.html",
+          "author": null,
+          "description": "The PSF is pleased to announced its second batch of PSF Fellows for 2021! Let us welcome the new PSF Fellows for Q2! The following people continue to do amazing things for the Python community:\nCheuk Ting Ho\nTwitter, GitHub, LinkedIn, Website\nEmily Morehouse-Valcarcel\nTwitter, GitHub, Website\nFrancisco Palm\nTwitter, GitHub, LinkedIn, Website\nIvan Levkivskyi\nGitHub\nJakub Baláš\nJoão Sebastião de Oliveira Bueno\nTwitter, GitHub, StackOverflow profile\nJukka Lehtosalo\nMichael J. Sullivan\nMiroslav Šedivý\n\n\nThank you for your continued contributions. We have added you to our Fellow roster online.\nThe above members help support the Python ecosystem by being phenomenal leaders, sustaining the growth of the Python scientific community, contributing to diversity efforts through PyLadies and other communities, maintaining virtual Python communities, maintaining Python libraries, creating educational material, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.\nLet's continue recognizing Pythonistas all over the world for their impact on our community. The criteria for Fellow members is available online: https://www.python.org/psf/fellows/. If you would like to nominate someone to be a PSF Fellow, please send a description of their Python accomplishments and their email address to psf-fellow at python.org. We are accepting nominations for quarter 3 through August 20, 2021.\nAre you a PSF Fellow and want to help the Work Group review nominations? Contact us at psf-fellow at python.org.",
+          "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/1_DITBV7SCk/python-software-foundation-fellow.html",
+          "publishedOn": "2021-07-21T15:12:00.000Z",
+          "wordCount": 909,
+          "title": "Python Software Foundation Fellow Members for Q2 2021"
+        },
+        {
           "id": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/QIjVUbY12IY/ukasz-langa-is-inaugural-cpython.html",
           "author": null,
           "description": "The PSF and the Python Steering Council are pleased to announce that the inaugural Developer-in-Residence role will be held by core developer Łukasz Langa. \nCPython, the reference implementation of Python, is developed and primarily maintained by volunteers. Inspired by the Django Fellowship Program's success, the PSF has strategically planned to support CPython in a similar way beginning this year. Thanks to the support from sponsors such as Google, this effort is now being put into motion! \nŁukasz will work full-time for one year to assist CPython maintainers and the Steering Council. Areas of responsibility will include analytical research to understand the project's volunteer hours and funding, investigation of project priorities and their tasks going forward, and begin working on those priorities. Regular reporting and full transparency to the community are also a large part of Łukasz’ role. If the program is impactful and the PSF raises enough funds, there is potential for the Developer-in-Residence role to continue beyond one year. We look forward to updating the community as work progresses!\nCheck out Łukasz’ personal announcement here.",
           "link": "http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/QIjVUbY12IY/ukasz-langa-is-inaugural-cpython.html",
           "publishedOn": "2021-07-12T15:31:00.008Z",
-          "wordCount": 837,
+          "wordCount": 847,
           "title": "Łukasz Langa is the inaugural CPython Developer-in-Residence!"
         }
       ]
@@ -27,7 +36,7 @@
           "description": "In accordance with our security release policy, the Django team\nis issuing\nDjango 3.2.5 and\nDjango 3.1.13.\nThese releases address the security issue with severity \"high\" detailed below. We encourage all users of Django to upgrade as soon as possible.\nCVE-2021-35042: Potential SQL injection via unsanitized QuerySet.order_by() input\nUnsanitized user input passed to QuerySet.order_by() could bypass intended\ncolumn reference validation in path marked for deprecation resulting in a\npotential SQL injection even if a deprecation warning is emitted.\nAs a mitigation the strict column reference validation was restored for the\nduration of the deprecation period. This regression appeared in 3.1 as a side\neffect of fixing #31426.\nThe issue is not present in the main branch as the deprecated path has been\nremoved.\nThanks to Joel Saunders for the report.\nAffected supported versions\nDjango 3.2\nDjango 3.1\nResolution\nPatches to resolve the issue have been applied to Django's 3.2 and 3.1\nrelease branches. The patches may be obtained from the\nfollowing changesets:\nOn the 3.2 release branch\nOn the 3.1 release branch\nThe following releases have been issued:\nDjango 3.2.5 (download Django 3.2.5 | 3.2.5 checksums)\nDjango 3.1.13 (download Django 3.1.13 | 3.1.13 checksums)\nThe PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.\nGeneral notes regarding security reporting\nAs always, we ask that potential security issues be reported via\nprivate email to security@djangoproject.com, and not via Django's\nTrac instance or the django-developers list. Please see our security\npolicies for further\ninformation.",
           "link": "https://www.djangoproject.com/weblog/2021/jul/01/security-releases/",
           "publishedOn": "2021-07-01T06:42:04.000Z",
-          "wordCount": 798,
+          "wordCount": 796,
           "title": "Django security releases issued: 3.2.5 and 3.1.13"
         }
       ]
