@@ -1,6 +1,6 @@
 # https://pachwenko.github.io/up2date/
 
-This is repository hosts the UI and content of an RSS feed reader.
+This is repository hosts the UI and content of an RSS feed reader. Focused on keeping up to date on ember and django news.
 
 ## Links and references
 
