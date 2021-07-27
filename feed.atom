@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-26T00:41:29.790Z</id>
+    <id>urn:2021-07-27T00:43:53.947Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-26T00:41:29.790Z</updated>
+    <updated>2021-07-27T00:43:53.947Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Python Software Foundation Fellow Members for Q2 2021]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/1_DITBV7SCk/python-software-foundation-fellow.html</id>
         <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/1_DITBV7SCk/python-software-foundation-fellow.html"/>
-        <updated>2021-07-21T15:12:00.000Z</updated>
+        <updated>2021-07-21T15:12:00.002Z</updated>
         <summary type="html"><![CDATA[The PSF is pleased to announced its second batch of PSF Fellows for 2021! Let us welcome the new PSF Fellows for Q2! The following people continue to do amazing things for the Python community:
 Cheuk Ting Ho
 Twitter, GitHub, LinkedIn, Website
