@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-30T00:42:09.622Z</id>
+    <id>urn:2021-07-31T00:42:22.016Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-30T00:42:09.622Z</updated>
+    <updated>2021-07-31T00:42:22.016Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -91,68 +91,6 @@ become an LTS release. As of the 3.28-beta being released, the main development
 branch of all Ember projects will become 4.0. Look for more information on Ember
 4.0 here on the blog this coming week.
 You can read m…]]></summary>
-        <author>
-            <name>Ember.js Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Django security releases issued: 3.2.5 and 3.1.13]]></title>
-        <id>https://www.djangoproject.com/weblog/2021/jul/01/security-releases/</id>
-        <link href="https://www.djangoproject.com/weblog/2021/jul/01/security-releases/"/>
-        <updated>2021-07-01T06:42:04.000Z</updated>
-        <summary type="html"><![CDATA[In accordance with our security release policy, the Django team
-is issuing
-Django 3.2.5 and
-Django 3.1.13.
-These releases address the security issue with severity "high" detailed below. We encourage all users of Django to upgrade as soon as possible.
-CVE-2021-35042: Potential SQL injection via unsanitized QuerySet.order_by() input
-Unsanitized user input passed to QuerySet.order_by() could bypass intended
-column reference validation in path marked for deprecation resulting in a
-potential SQL injection even if a deprecation warning is emitted.
-As a mitigation the strict column reference validation was restored for the
-duration of the deprecation period. This regression appeared in 3.1 as a side
-effect of fixing #31426.
-The issue is not present in the main branch as the deprecated path has been
-removed.
-Thanks to Joel Saunders for the report.
-Affected supported versions
-Django 3.2
-Django 3.1
-Resolution
-Patches to resolve the issue have been applied to Django's 3.2 and 3.1
-release branches. The patches may be obtained from the
-following changesets:
-On the 3.2 release branch
-On the 3.1 release branch
-The following releases have been issued:
-Django 3.2.5 (download Django 3.2.5 | 3.2.5 checksums)
-Django 3.1.13 (download Django 3.1.13 | 3.1.13 checksums)
-The PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.
-General notes regarding security reporting
-As always, we ask that potential security issues be reported via
-private email to security@djangoproject.com, and not via Django's
-Trac instance or the django-developers list. Please see our security
-policies for further
-information.]]></summary>
-        <author>
-            <name>Mariusz Felisiak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ember Times - Issue No. 183]]></title>
-        <id>https://blog.emberjs.com/the-ember-times-issue-183</id>
-        <link href="https://blog.emberjs.com/the-ember-times-issue-183"/>
-        <updated>2021-07-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[👋 Emberistas! 🐹
-New release of Unstable Ember Language Server, share code snippets on Twitter using Ember, the difference between ember serve and npm run start, and an addon roundup!
-Release of uELS v2.0.16 ✅
-Unstable Ember Language Server is a fully featured fork of Ember Language Server. While the name says unstable it actually has been stable and ready to use for day-to-day development!
-Thanks to both Alex LaFroscia (@alexlafroscia) and Alex Kanunnikov (@lifeart) for new version release which provides:
-Support workspace/didChangeConfiguration event
-Improved startup speed by delaying template tokenization
-Autocomplete now use global registry and file change events, not fs lookup, but we still do fs lookup on project initialization
-Added template-lint severity support
-Improved template-…]]></summary>
         <author>
             <name>Ember.js Blog</name>
         </author>
