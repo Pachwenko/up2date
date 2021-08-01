@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-31T00:42:22.016Z</id>
+    <id>urn:2021-08-01T00:49:09.955Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-31T00:42:22.016Z</updated>
+    <updated>2021-08-01T00:49:09.955Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Ember Times - Issue No. 185]]></title>
+        <id>https://blog.emberjs.com/the-ember-times-issue-185</id>
+        <link href="https://blog.emberjs.com/the-ember-times-issue-185"/>
+        <updated>2021-07-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Emberistas! 🐹
+New Educative course, using Ember with XState, let codemods upgrade your app & deal with jQuery, Ember.js: The Good Parts, new release of ember-deep-tracked, why blueprints are cool.
+
+Developing Robust Ember.js Applications course on Educative 🆕
+Based on the popular book, Rock and Roll with Ember.js, Educative has a new (paid) course, Developing Robust Ember.js Applications by Balint Erdi (@balinterdi). Balint chose to partner with Educative because their courses are interactive: there are quizzes and coding challenges at the end of most chapters, which will help reinforce understanding and learning.
+Takeaway skills:
+Understand how Ember.js works in web applications
+Help the user understand how the different building blocks, including components, routing, and services, m…]]></summary>
+        <author>
+            <name>Ember.js Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Python Software Foundation Fellow Members for Q2 2021]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/1_DITBV7SCk/python-software-foundation-fellow.html</id>
