@@ -62,15 +62,6 @@
           "publishedOn": "2021-07-14T00:00:00.000Z",
           "wordCount": 1334,
           "title": "The Road to Ember 4.0"
-        },
-        {
-          "id": "https://blog.emberjs.com/ember-3-27-released",
-          "author": null,
-          "description": "Today the Ember project is announcing release 3.27 of Ember.js, Ember Data, and Ember CLI. This is a minor version, stable release.\nWe're also announcing the start of the 3.28 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test beta builds and report any bugs before they are published as a stable release in six weeks' time. The ember-try addon is a great way to continuously test your projects against the latest Ember releases.\nEmber.js 3.28 (again, starting beta today) is the final planned version of the 3.x release cycle, and will\nbecome an LTS release. As of the 3.28-beta being released, the main development\nbranch of all Ember projects will become 4.0. Look for more information on Ember\n4.0 here on the blog this coming week.\nYou can read m…",
-          "link": "https://blog.emberjs.com/ember-3-27-released",
-          "publishedOn": "2021-07-03T00:00:00.000Z",
-          "wordCount": 1588,
-          "title": "Ember 3.27 Released"
         }
       ]
     }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-01T00:49:09.955Z</id>
+    <id>urn:2021-08-02T00:41:21.932Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-01T00:49:09.955Z</updated>
+    <updated>2021-08-02T00:41:21.932Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -94,22 +94,6 @@ CPython, the reference implementation of Python, is developed and primarily main
 Check out Łukasz’ personal announcement here.]]></summary>
         <author>
             <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ember 3.27 Released]]></title>
-        <id>https://blog.emberjs.com/ember-3-27-released</id>
-        <link href="https://blog.emberjs.com/ember-3-27-released"/>
-        <updated>2021-07-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today the Ember project is announcing release 3.27 of Ember.js, Ember Data, and Ember CLI. This is a minor version, stable release.
-We're also announcing the start of the 3.28 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test beta builds and report any bugs before they are published as a stable release in six weeks' time. The ember-try addon is a great way to continuously test your projects against the latest Ember releases.
-Ember.js 3.28 (again, starting beta today) is the final planned version of the 3.x release cycle, and will
-become an LTS release. As of the 3.28-beta being released, the main development
-branch of all Ember projects will become 4.0. Look for more information on Ember
-4.0 here on the blog this coming week.
-You can read m…]]></summary>
-        <author>
-            <name>Ember.js Blog</name>
         </author>
     </entry>
 </feed>
