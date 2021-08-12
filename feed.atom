@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-11T00:12:40.924Z</id>
+    <id>urn:2021-08-12T00:05:58.935Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-11T00:12:40.924Z</updated>
+    <updated>2021-08-12T00:05:58.935Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -103,19 +103,6 @@ Announcing Ember 4.0
 In his EmberConf 2021 keynote, Yehuda shared a name for Ember's next edition: Polaris. In order to unblock Polaris providing the …]]></summary>
         <author>
             <name>Ember.js Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Łukasz Langa is the inaugural CPython Developer-in-Residence!]]></title>
-        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/QIjVUbY12IY/ukasz-langa-is-inaugural-cpython.html</id>
-        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/QIjVUbY12IY/ukasz-langa-is-inaugural-cpython.html"/>
-        <updated>2021-07-12T15:31:00.008Z</updated>
-        <summary type="html"><![CDATA[The PSF and the Python Steering Council are pleased to announce that the inaugural Developer-in-Residence role will be held by core developer Łukasz Langa. 
-CPython, the reference implementation of Python, is developed and primarily maintained by volunteers. Inspired by the Django Fellowship Program's success, the PSF has strategically planned to support CPython in a similar way beginning this year. Thanks to the support from sponsors such as Google, this effort is now being put into motion! 
-Łukasz will work full-time for one year to assist CPython maintainers and the Steering Council. Areas of responsibility will include analytical research to understand the project's volunteer hours and funding, investigation of project priorities and their tasks going forward, and begin working on those priorities. Regular reporting and full transparency to the community are also a large part of Łukasz’ role. If the program is impactful and the PSF raises enough funds, there is potential for the Developer-in-Residence role to continue beyond one year. We look forward to updating the community as work progresses!
-Check out Łukasz’ personal announcement here.]]></summary>
-        <author>
-            <name>Python Software Foundation News</name>
         </author>
     </entry>
 </feed>
