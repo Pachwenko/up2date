@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-17T00:05:59.657Z</id>
+    <id>urn:2021-08-18T00:06:43.603Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-17T00:05:59.657Z</updated>
+    <updated>2021-08-18T00:06:43.603Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Ember Times - Issue No. 186]]></title>
+        <id>https://blog.emberjs.com/the-ember-times-issue-186</id>
+        <link href="https://blog.emberjs.com/the-ember-times-issue-186"/>
+        <updated>2021-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Emberistas! 🐹
+Read the blog post on Avoiding Lifecycle in Components, announcing Glimmer Apollo, new release for ember-responsive-image, and code in public: Ember dev streaming on Twitch.
+Blog post: Avoiding Lifecycle in Components ✍️
+NullVoxPopuli (@NullVoxPopuli) published a blog post on Avoiding Lifecycle in Components, namely the lifecycle hooks that come with ember-render-modifiers.
+For some context, ember-render-modifiers was created from RFC 415: Render Element Modifiers which introduced  three new generic element modifiers: {{did-insert}}, {{did-update}}, and {{will-destroy}}. The caveat however was that these modifiers were meant for quickly migrating away from classic Ember components to Glimmer components, because they largely allow you to use the same lifecycle hook methods…]]></summary>
+        <author>
+            <name>Ember.js Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021 Django Developers Survey]]></title>
         <id>https://www.djangoproject.com/weblog/2021/aug/04/2021-django-developers-survey/</id>
