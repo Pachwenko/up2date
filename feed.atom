@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-18T00:06:43.603Z</id>
+    <id>urn:2021-08-19T00:04:51.788Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-18T00:06:43.603Z</updated>
+    <updated>2021-08-19T00:04:51.788Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Shamika Mohanan has joined the PSF as Packaging Project Manager]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/cVoVg81ibV0/shamika-mohanan-has-joined-psf-as.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/cVoVg81ibV0/shamika-mohanan-has-joined-psf-as.html"/>
+        <updated>2021-08-18T09:19:00.002Z</updated>
+        <summary type="html"><![CDATA[The Python Software Foundation (PSF) is excited to welcome Shamika Mohanan as our new Packaging Project Manager! You can learn specifics about the role in our post announcing the position.
+
+Recognizing that the success of the Python language and community relies on the success of its packaging ecosystem, the PSF is excited for the Packaging Project Manager role to facilitate, coordinate, and amplify the existing momentum in this space.
+
+Shamika will be performing outreach to Python users to help the PSF better understand the landscape, identify fundable initiatives, seek grants, oversee funded projects, and report on their progress and results to improve Python packaging for all users. Shamika will also work with the PSF Director of Infrastructure to make progress on developing PyPI into a sustainable service that the community can continue to rely on for years to come.
+
+Once again we want to thank our Visionary Sponsor Bloomberg for their initiative in “Shifting Left” and supporting this role for its initial term of two years.]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Ember Times - Issue No. 186]]></title>
         <id>https://blog.emberjs.com/the-ember-times-issue-186</id>
