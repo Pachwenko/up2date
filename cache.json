@@ -47,6 +47,15 @@
       "siteUrl": "https://blog.emberjs.com/rss.xml",
       "articles": [
         {
+          "id": "https://blog.emberjs.com/the-ember-times-issue-187",
+          "author": null,
+          "description": "👋 Emberistas! 🐹\nRelease: ember-engines-router-service, ember-scroll-modifier and ember-user-activity updates, and Coding with the Dead on Twitch.\n⚙️ Release: ember-engines-router-service\nMichael Villander (@villander) released the ember-engines-router-service addon which provides the Router service for ember-engines.\nThe addon gives you access to the RouterService API inside each engine. This allows you to inject the router service as usual to your component within an engine and use APIs such as transitionTo and even transitionToExternal which help link externalRoutes together.\nimport Component from '@glimmer/component';\nimport { inject as service } from '@ember/service';\nimport { action } from ‘@ember/object’;\n\nexport default class SomeComponent extends Component {\n  @service router;\n\n …",
+          "link": "https://blog.emberjs.com/the-ember-times-issue-187",
+          "publishedOn": "2021-08-27T00:00:00.000Z",
+          "wordCount": 9,
+          "title": "The Ember Times - Issue No. 187"
+        },
+        {
           "id": "https://blog.emberjs.com/the-ember-times-issue-186",
           "author": null,
           "description": "👋 Emberistas! 🐹\nRead the blog post on Avoiding Lifecycle in Components, announcing Glimmer Apollo, new release for ember-responsive-image, and code in public: Ember dev streaming on Twitch.\nBlog post: Avoiding Lifecycle in Components ✍️\nNullVoxPopuli (@NullVoxPopuli) published a blog post on Avoiding Lifecycle in Components, namely the lifecycle hooks that come with ember-render-modifiers.\nFor some context, ember-render-modifiers was created from RFC 415: Render Element Modifiers which introduced  three new generic element modifiers: {{did-insert}}, {{did-update}}, and {{will-destroy}}. The caveat however was that these modifiers were meant for quickly migrating away from classic Ember components to Glimmer components, because they largely allow you to use the same lifecycle hook methods…",
@@ -54,15 +63,6 @@
           "publishedOn": "2021-08-16T00:00:00.000Z",
           "wordCount": 9,
           "title": "The Ember Times - Issue No. 186"
-        },
-        {
-          "id": "https://blog.emberjs.com/the-ember-times-issue-185",
-          "author": null,
-          "description": "👋 Emberistas! 🐹\nNew Educative course, using Ember with XState, let codemods upgrade your app & deal with jQuery, Ember.js: The Good Parts, new release of ember-deep-tracked, why blueprints are cool.\n\nDeveloping Robust Ember.js Applications course on Educative 🆕\nBased on the popular book, Rock and Roll with Ember.js, Educative has a new (paid) course, Developing Robust Ember.js Applications by Balint Erdi (@balinterdi). Balint chose to partner with Educative because their courses are interactive: there are quizzes and coding challenges at the end of most chapters, which will help reinforce understanding and learning.\nTakeaway skills:\nUnderstand how Ember.js works in web applications\nHelp the user understand how the different building blocks, including components, routing, and services, m…",
-          "link": "https://blog.emberjs.com/the-ember-times-issue-185",
-          "publishedOn": "2021-07-30T00:00:00.000Z",
-          "wordCount": 9,
-          "title": "The Ember Times - Issue No. 185"
         }
       ]
     }

@@ -16,6 +16,40 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-27">2021-08-27</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.emberjs.com/rss.xml">Ember.js Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Ember Times - Issue No. 187</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.emberjs.com/the-ember-times-issue-187">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>👋 Emberistas! 🐹
+Release: ember-engines-router-service, ember-scroll-modifier and ember-user-activity updates, and Coding with the Dead on Twitch.
+⚙️ Release: ember-engines-router-service
+Michael Villander (@villander) released the ember-engines-router-service addon which provides the Router service for ember-engines.
+The addon gives you access to the RouterService API inside each engine. This allows you to inject the router service as usual to your component within an engine and use APIs such as transitionTo and even transitionToExternal which help link externalRoutes together.
+import Component from &#x27;@glimmer/component&#x27;;
+import { inject as service } from &#x27;@ember/service&#x27;;
+import { action } from ‘@ember/object’;
+
+export default class SomeComponent extends Component {
+  @service router;
+
+ …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-18">2021-08-18</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -115,38 +149,9 @@ for this release is Carlton Gibson: E17DF5C82B4F9D00</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-30">2021-07-30</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://blog.emberjs.com/rss.xml">Ember.js Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Ember Times - Issue No. 185</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.emberjs.com/the-ember-times-issue-185">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>👋 Emberistas! 🐹
-New Educative course, using Ember with XState, let codemods upgrade your app &amp; deal with jQuery, Ember.js: The Good Parts, new release of ember-deep-tracked, why blueprints are cool.
-
-Developing Robust Ember.js Applications course on Educative 🆕
-Based on the popular book, Rock and Roll with Ember.js, Educative has a new (paid) course, Developing Robust Ember.js Applications by Balint Erdi (@balinterdi). Balint chose to partner with Educative because their courses are interactive: there are quizzes and coding challenges at the end of most chapters, which will help reinforce understanding and learning.
-Takeaway skills:
-Understand how Ember.js works in web applications
-Help the user understand how the different building blocks, including components, routing, and services, m…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-28T00:05:41.768Z">2021-08-28T00:05:41.768Z</time>
+    <time id="build-timestamp" datetime="2021-08-29T00:06:25.131Z">2021-08-29T00:06:25.131Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
