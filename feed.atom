@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-11T00:06:00.309Z</id>
+    <id>urn:2021-09-12T00:06:56.288Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-11T00:06:00.309Z</updated>
+    <updated>2021-09-12T00:06:56.288Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Ember Times - Issue No. 188]]></title>
+        <id>https://blog.emberjs.com/the-ember-times-issue-188</id>
+        <link href="https://blog.emberjs.com/the-ember-times-issue-188"/>
+        <updated>2021-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Emberistas! 🐹
+Ember 3.28 and 4.0 Beta Released, open source contributors wanted for Ember v4, reactively handle audio in Octane with ember-stereo, and Twitter thread: Ember is data-first.
+🎉 Ember 3.28 and 4.0 Beta Released
+After 3.5 years and 28 minor releases, Ember 3.28 marks the end of the project's 3.x series. To ensure a smooth upgrade path going into the 4.x series, 3.28 has been declared an LTS (Long Term Support) candidate. In six weeks, the latest patch version of 3.28 will be promoted to be the latest LTS release and replace 3.24-LTS.
+We're also announcing the start of the Ember 4.0 beta cycle for all sub-projects. Following the process set in previous major versions, Ember 4.0's beta introduces no new features. Instead, it removes support for deprecated public APIs. We enco…]]></summary>
+        <author>
+            <name>Ember.js Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ember 3.28 and 4.0 Beta Released]]></title>
         <id>https://blog.emberjs.com/ember-3-28-released</id>
