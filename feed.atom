@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-14T00:06:19.182Z</id>
+    <id>urn:2021-09-15T00:06:20.128Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-14T00:06:19.182Z</updated>
+    <updated>2021-09-15T00:06:20.128Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -80,20 +80,6 @@ Shamika will be performing outreach to Python users to help the PSF better under
 Once again we want to thank our Visionary Sponsor Bloomberg for their initiative in “Shifting Left” and supporting this role for its initial term of two years.]]></summary>
         <author>
             <name>Python Software Foundation News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ember Times - Issue No. 186]]></title>
-        <id>https://blog.emberjs.com/the-ember-times-issue-186</id>
-        <link href="https://blog.emberjs.com/the-ember-times-issue-186"/>
-        <updated>2021-08-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[👋 Emberistas! 🐹
-Read the blog post on Avoiding Lifecycle in Components, announcing Glimmer Apollo, new release for ember-responsive-image, and code in public: Ember dev streaming on Twitch.
-Blog post: Avoiding Lifecycle in Components ✍️
-NullVoxPopuli (@NullVoxPopuli) published a blog post on Avoiding Lifecycle in Components, namely the lifecycle hooks that come with ember-render-modifiers.
-For some context, ember-render-modifiers was created from RFC 415: Render Element Modifiers which introduced  three new generic element modifiers: {{did-insert}}, {{did-update}}, and {{will-destroy}}. The caveat however was that these modifiers were meant for quickly migrating away from classic Ember components to Glimmer components, because they largely allow you to use the same lifecycle hook methods…]]></summary>
-        <author>
-            <name>Ember.js Blog</name>
         </author>
     </entry>
 </feed>
