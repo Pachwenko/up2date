@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-17T00:06:10.149Z</id>
+    <id>urn:2021-09-18T00:06:00.730Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-17T00:06:10.149Z</updated>
+    <updated>2021-09-18T00:06:00.730Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Tereza Iofciu Awarded the PSF Community Service Award for Q1 2021]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/QQwpt6e2N-w/tereza-iofciu-awarded-psf-community.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/QQwpt6e2N-w/tereza-iofciu-awarded-psf-community.html"/>
+        <updated>2021-09-17T17:19:00.002Z</updated>
+        <summary type="html"><![CDATA[Tereza Iofciu, Data Science coach, PyLadies Hamburg organizer, and PSF Code of Conduct working group member has been awarded the Python Software Foundation 2021 Q1 community service award.
+
+RESOLVED, that the Python Software Foundation award the Q1 2021 Community Service Award to Tereza Iofciu. Tereza is a PSF Code of Conduct WG member and has done a wonderful job helping, participating, and driving the Code of Conduct WG discussions. Tereza formed and continues to help organize the PyLadies event in 2021. Tereza is also a member of the newly formed PSF Diversity & Inclusion WG.
+We interviewed Tereza to learn more about her inspiration and work with the Python community. Georgi Ker, a close associate of Tereza also speaks about Tereza. 
+The Origin Story
+
+Can you tell us about your origin s…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Ember Times - Issue No. 188]]></title>
         <id>https://blog.emberjs.com/the-ember-times-issue-188</id>
