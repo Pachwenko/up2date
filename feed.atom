@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-21T00:06:23.692Z</id>
+    <id>urn:2021-09-22T00:06:20.973Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-21T00:06:23.692Z</updated>
+    <updated>2021-09-22T00:06:20.973Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Django 4.0 alpha 1 released]]></title>
+        <id>https://www.djangoproject.com/weblog/2021/sep/21/django-40-alpha-1-released/</id>
+        <link href="https://www.djangoproject.com/weblog/2021/sep/21/django-40-alpha-1-released/"/>
+        <updated>2021-09-21T19:10:46.000Z</updated>
+        <summary type="html"><![CDATA[Django 4.0 alpha 1 is now available. It represents the first stage in the 4.0
+release cycle and is an opportunity for you to try out the changes coming in
+Django 4.0.
+Django 4.0 has an abundance of new features which you can read about in the
+in-development 4.0 release notes.
+This alpha milestone marks the feature freeze. The current
+release schedule calls for a beta release in about a month and a release
+candidate about a month from then. We'll only be able to keep this schedule
+if we get early and often testing from the community. Updates on the release
+schedule are available on the django-developers mailing list.
+As with all alpha and beta packages, this is not for production use. But
+if you'd like to take some of the new features for a spin, or to help find and
+fix bugs (which should be reported to the issue tracker), you can grab a
+copy of the alpha package from our downloads page or on PyPI.
+The PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.]]></summary>
+        <author>
+            <name>Mariusz Felisiak</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tereza Iofciu Awarded the PSF Community Service Award for Q1 2021]]></title>
         <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/QQwpt6e2N-w/tereza-iofciu-awarded-psf-community.html</id>
