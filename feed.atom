@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-23T00:06:41.115Z</id>
+    <id>urn:2021-09-24T00:06:15.577Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-23T00:06:41.115Z</updated>
+    <updated>2021-09-24T00:06:15.577Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Katia Lira Awarded the PSF Community Service Award for Q2 2020]]></title>
+        <id>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/qwHz7RZ7wBQ/katia-lira-awarded-psf-community.html</id>
+        <link href="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/qwHz7RZ7wBQ/katia-lira-awarded-psf-community.html"/>
+        <updated>2021-09-23T08:41:00.001Z</updated>
+        <summary type="html"><![CDATA[Katia Lira, Software Engineer from Mexico city, has been awarded the Python Software Foundation 2020 Q2 Community Service Award.
+
+
+RESOLVED, that the Python Software Foundation award the Q2 2020 Community Service Award to Katia Lira for her contributions to PyCon LatAm as conference chair, which held its inaugural conference in 2019. Additionally, Katia is the DEFNA (Django Events Foundation North America) President and has collaborated in crafting the vision of PyLadies Global. She hosts and produces multiple Python/tech/community podcasts like El Dev Show in Spanish. She's a PyCon speaker and is well respected in the community.
+
+
+We interviewed Katia to learn more about her inspiration and work with the Python community. We also asked two of Katia's associates - Valery Calderon and Crist…]]></summary>
+        <author>
+            <name>Python Software Foundation News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Django 4.0 alpha 1 released]]></title>
         <id>https://www.djangoproject.com/weblog/2021/sep/21/django-40-alpha-1-released/</id>
