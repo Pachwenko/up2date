@@ -36,7 +36,7 @@
           "description": "Django 4.0 alpha 1 is now available. It represents the first stage in the 4.0\nrelease cycle and is an opportunity for you to try out the changes coming in\nDjango 4.0.\nDjango 4.0 has an abundance of new features which you can read about in the\nin-development 4.0 release notes.\nThis alpha milestone marks the feature freeze. The current\nrelease schedule calls for a beta release in about a month and a release\ncandidate about a month from then. We'll only be able to keep this schedule\nif we get early and often testing from the community. Updates on the release\nschedule are available on the django-developers mailing list.\nAs with all alpha and beta packages, this is not for production use. But\nif you'd like to take some of the new features for a spin, or to help find and\nfix bugs (which should be reported to the issue tracker), you can grab a\ncopy of the alpha package from our downloads page or on PyPI.\nThe PGP key ID used for this release is Mariusz Felisiak: 2EF56372BA48CD1B.",
           "link": "https://www.djangoproject.com/weblog/2021/sep/21/django-40-alpha-1-released/",
           "publishedOn": "2021-09-21T19:10:46.000Z",
-          "wordCount": 731,
+          "wordCount": 734,
           "title": "Django 4.0 alpha 1 released"
         },
         {
