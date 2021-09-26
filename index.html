@@ -16,6 +16,31 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-24">2021-09-24</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.emberjs.com/rss.xml">Ember.js Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Ember Times - Issue No. 189</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.emberjs.com/the-ember-times-issue-189">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>👋 Emberistas! 🐹
+RFC: Asset Import Spec, ember-element-query v4, EmberFest 2021 - best of both worlds, Glimmer cheatsheet, and Glimmer Apollo v0.4.0.
+✍️ RFC: Asset Import Spec
+Edward Faulkner (@ef4) proposed a new RFC which defines the standard semantics for what it means to depend on files that are not JavaScript or CSS, like images, fonts, and other media. The ecosystem today mostly relies on broccoli-asset-rev which is a Broccoli plugin that adds fingerprint checksums and CDN URLs to your assets. The RFC argues that the broccoli-asset-rev plugin does not take advantage of the newer capabilities we have in ember-auto-import and embroider. The proposed pull-based design lets code declare what assets it needs and then not worry about how those assets will get delivered is safer and easier…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-23">2021-09-23</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -182,43 +207,9 @@ The release package and checksums are available from our downloads page, as well
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-27">2021-08-27</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://blog.emberjs.com/rss.xml">Ember.js Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Ember Times - Issue No. 187</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.emberjs.com/the-ember-times-issue-187">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>👋 Emberistas! 🐹
-Release: ember-engines-router-service, ember-scroll-modifier and ember-user-activity updates, and Coding with the Dead on Twitch.
-⚙️ Release: ember-engines-router-service
-Michael Villander (@villander) released the ember-engines-router-service addon which provides the Router service for ember-engines.
-The addon gives you access to the RouterService API inside each engine. This allows you to inject the router service as usual to your component within an engine and use APIs such as transitionTo and even transitionToExternal which help link externalRoutes together.
-import Component from &#x27;@glimmer/component&#x27;;
-import { inject as service } from &#x27;@ember/service&#x27;;
-import { action } from ‘@ember/object’;
-
-export default class SomeComponent extends Component {
-  @service router;
-
- …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-25T00:06:07.298Z">2021-09-25T00:06:07.298Z</time>
+    <time id="build-timestamp" datetime="2021-09-26T00:07:06.865Z">2021-09-26T00:07:06.865Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.1</a></span>
   </footer>
   <script src="index.js"></script>
